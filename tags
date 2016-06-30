@@ -1,0 +1,1392 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADB_AUTH_RSAPUBLICKEY	adb_auth.h	36;"	d
+ADB_AUTH_SIGNATURE	adb_auth.h	35;"	d
+ADB_AUTH_TOKEN	adb_auth.h	33;"	d
+ADB_CLASS	adb.h	316;"	d
+ADB_COMMON_CFLAGS	Android.mk	/^ADB_COMMON_CFLAGS := \\$/;"	m
+ADB_IO_H	adb_io.h	18;"	d
+ADB_KEY_FILE	adb_auth_host.cpp	60;"	d	file:
+ADB_LOCAL_TRANSPORT_MAX	transport_local.cpp	42;"	d	file:
+ADB_MUTEX	mutex_list.h	25;"	d
+ADB_MUTEX	sysdeps.h	315;"	d
+ADB_MUTEX	sysdeps.h	67;"	d
+ADB_MUTEX	sysdeps_win32.cpp	2148;"	d	file:
+ADB_MUTEX_DEFINE	sysdeps.h	305;"	d
+ADB_MUTEX_DEFINE	sysdeps.h	63;"	d
+ADB_MUTEX_INITIALIZER	sysdeps.h	299;"	d
+ADB_PROTOCOL	adb.h	318;"	d
+ADB_SERVER_VERSION	adb.h	44;"	d
+ADB_SUBCLASS	adb.h	317;"	d
+ADB_TRACING	adb_trace.h	64;"	d
+ADB_VERSION_MAJOR	adb.h	40;"	d
+ADB_VERSION_MINOR	adb.h	41;"	d
+AFFINITY_ENVVAR	adb_main.cpp	60;"	d	file:
+ANDROID_PATH	adb_auth_host.cpp	59;"	d	file:
+ARRAY_SIZE	adb.cpp	43;"	d	file:
+A_AUTH	adb.h	34;"	d
+A_CLSE	adb.h	32;"	d
+A_CNXN	adb.h	29;"	d
+A_OKAY	adb.h	31;"	d
+A_OPEN	adb.h	30;"	d
+A_SYNC	adb.h	28;"	d
+A_VERSION	adb.h	37;"	d
+A_WRTE	adb.h	33;"	d
+AdbBasic	tests/test_adb.py	/^class AdbBasic(unittest.TestCase):$/;"	c
+AdbFile	tests/test_adb.py	/^class AdbFile(unittest.TestCase):$/;"	c
+AdbTrace	adb_trace.h	/^enum AdbTrace {$/;"	g
+AdbWrapper	tests/test_adb.py	/^class AdbWrapper(object):$/;"	c
+AndroidInterfaceAdded	usb_osx.cpp	/^AndroidInterfaceAdded(void *refCon, io_iterator_t iterator)$/;"	f	file:
+AndroidInterfaceNotify	usb_osx.cpp	/^AndroidInterfaceNotify(void *refCon, io_service_t service, natural_t messageType, void *messageArgument)$/;"	f	file:
+BEGIN	file_sync_client.cpp	/^static void BEGIN()$/;"	f	file:
+BIPD	sysdeps_win32.cpp	868;"	d	file:
+BIPDUMP	sysdeps_win32.cpp	869;"	d	file:
+BIP_BUFFER_SIZE	sysdeps_win32.cpp	840;"	d	file:
+BipBuffer	sysdeps_win32.cpp	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec	sysdeps_win32.cpp	/^} BipBufferRec, *BipBuffer;$/;"	t	typeref:struct:BipBufferRec_	file:
+BipBufferRec_	sysdeps_win32.cpp	/^typedef struct BipBufferRec_$/;"	s	file:
+CHUNK_SIZE	adb.h	361;"	d
+CSI	sysdeps_win32.cpp	2647;"	d	file:
+CSI	sysdeps_win32.cpp	2907;"	d	file:
+CS_ANY	adb.h	342;"	d
+CS_BOOTLOADER	adb.h	344;"	d
+CS_DEVICE	adb.h	345;"	d
+CS_HOST	adb.h	346;"	d
+CS_NOPERM	adb.h	348;"	d
+CS_OFFLINE	adb.h	343;"	d
+CS_RECOVERY	adb.h	347;"	d
+CS_SIDELOAD	adb.h	349;"	d
+CS_UNAUTHORIZED	adb.h	350;"	d
+CheckInterface	usb_osx.cpp	/^CheckInterface(IOUSBInterfaceInterface **interface, UInt16 vendor, UInt16 product)$/;"	f	file:
+D	adb_trace.h	68;"	d
+D	adb_trace.h	96;"	d
+DBG	usb_osx.cpp	35;"	d	file:
+DBGX	usb_linux.cpp	44;"	d	file:
+DDMS_RAWIMAGE_VERSION	framebuffer_service.cpp	40;"	d	file:
+DEBUG	fdevent.cpp	40;"	d	file:
+DEBUG_PACKETS	adb.h	299;"	d
+DEFAULT_ADB_LOCAL_TRANSPORT_PORT	adb.h	314;"	d
+DEFAULT_ADB_PORT	adb.h	309;"	d
+DEFAULT_ADB_PORT	adb.h	311;"	d
+DEVICE_TEMP_DIR	tests/test_adb.py	/^    DEVICE_TEMP_DIR = SCRATCH_DIR + "\/adb_test_dir"$/;"	v	class:AdbFile
+DEVICE_TEMP_FILE	tests/test_adb.py	/^    DEVICE_TEMP_FILE = SCRATCH_DIR + "\/adb_test_file"$/;"	v	class:AdbFile
+DQ	adb_trace.h	55;"	d
+DQ	adb_trace.h	57;"	d
+DR	adb_trace.h	105;"	d
+DR	adb_trace.h	83;"	d
+DUMPMAX	adb.cpp	231;"	d	file:
+D_lock	adb.cpp	/^ADB_MUTEX_DEFINE( D_lock );$/;"	v
+DeviceFile	tests/test_adb.py	/^class DeviceFile(object):$/;"	c
+END	file_sync_client.cpp	/^static void END()$/;"	f	file:
+ENV_PATH_SEPARATOR_STR	sysdeps.h	295;"	d
+ENV_PATH_SEPARATOR_STR	sysdeps.h	59;"	d
+ESC	sysdeps_win32.cpp	2646;"	d	file:
+ESC	sysdeps_win32.cpp	2906;"	d	file:
+EXTRA_STATIC_LIBS	Android.mk	/^  EXTRA_STATIC_LIBS := AdbWinApi$/;"	m
+EventHook	sysdeps_win32.cpp	/^typedef struct EventHookRec_* EventHook;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec	sysdeps_win32.cpp	/^} EventHookRec;$/;"	t	typeref:struct:EventHookRec_	file:
+EventHookRec_	sysdeps_win32.cpp	/^typedef struct EventHookRec_$/;"	s	file:
+EventLooper	sysdeps_win32.cpp	/^typedef struct EventLooperRec_*  EventLooper;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec	sysdeps_win32.cpp	/^} EventLooperRec;$/;"	t	typeref:struct:EventLooperRec_	file:
+EventLooperRec_	sysdeps_win32.cpp	/^typedef struct EventLooperRec_$/;"	s	file:
+FATAL	fdevent.cpp	57;"	d	file:
+FATAL	sysdeps_win32.cpp	1255;"	d	file:
+FDE_ACTIVE	fdevent.cpp	77;"	d	file:
+FDE_ACTIVE	sysdeps_win32.cpp	1273;"	d	file:
+FDE_CREATED	fdevent.cpp	79;"	d	file:
+FDE_CREATED	sysdeps_win32.cpp	1275;"	d	file:
+FDE_DONT_CLOSE	fdevent.h	29;"	d
+FDE_DONT_CLOSE	sysdeps.h	201;"	d
+FDE_ERROR	fdevent.h	25;"	d
+FDE_ERROR	sysdeps.h	200;"	d
+FDE_EVENTMASK	fdevent.cpp	74;"	d	file:
+FDE_EVENTMASK	sysdeps_win32.cpp	1270;"	d	file:
+FDE_PENDING	fdevent.cpp	78;"	d	file:
+FDE_PENDING	sysdeps_win32.cpp	1274;"	d	file:
+FDE_READ	fdevent.h	23;"	d
+FDE_READ	sysdeps.h	198;"	d
+FDE_STATEMASK	fdevent.cpp	75;"	d	file:
+FDE_STATEMASK	sysdeps_win32.cpp	1271;"	d	file:
+FDE_TIMEOUT	fdevent.h	26;"	d
+FDE_WRITE	fdevent.h	24;"	d
+FDE_WRITE	sysdeps.h	199;"	d
+FH	sysdeps_win32.cpp	/^typedef struct FHRec_* FH;$/;"	t	typeref:struct:FHRec_	file:
+FHClass	sysdeps_win32.cpp	/^typedef const struct FHClassRec_* FHClass;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec	sysdeps_win32.cpp	/^} FHClassRec;$/;"	t	typeref:struct:FHClassRec_	file:
+FHClassRec_	sysdeps_win32.cpp	/^typedef struct FHClassRec_ {$/;"	s	file:
+FHRec	sysdeps_win32.cpp	/^} FHRec;$/;"	t	typeref:struct:FHRec_	file:
+FHRec_	sysdeps_win32.cpp	/^typedef struct FHRec_$/;"	s	file:
+FSTAB_PREFIX	set_verity_enable_state_service.cpp	35;"	d	file:
+HOST	adb.cpp	/^int HOST = 0;$/;"	v
+HostFile	tests/test_adb.py	/^class HostFile(object):$/;"	c
+ID_DATA	file_sync_service.h	34;"	d
+ID_DENT	file_sync_service.h	32;"	d
+ID_DONE	file_sync_service.h	33;"	d
+ID_FAIL	file_sync_service.h	36;"	d
+ID_LIST	file_sync_service.h	28;"	d
+ID_OKAY	file_sync_service.h	35;"	d
+ID_QUIT	file_sync_service.h	37;"	d
+ID_RECV	file_sync_service.h	31;"	d
+ID_SEND	file_sync_service.h	30;"	d
+ID_STAT	file_sync_service.h	27;"	d
+ID_ULNK	file_sync_service.h	29;"	d
+INSTALL_STATUS_CANNOT_BIND	adb_listeners.h	/^  INSTALL_STATUS_CANNOT_BIND = -2,$/;"	e	enum:install_status_t
+INSTALL_STATUS_CANNOT_REBIND	adb_listeners.h	/^  INSTALL_STATUS_CANNOT_REBIND = -3,$/;"	e	enum:install_status_t
+INSTALL_STATUS_INTERNAL_ERROR	adb_listeners.h	/^  INSTALL_STATUS_INTERNAL_ERROR = -1,$/;"	e	enum:install_status_t
+INSTALL_STATUS_LISTENER_NOT_FOUND	adb_listeners.h	/^  INSTALL_STATUS_LISTENER_NOT_FOUND = -4,$/;"	e	enum:install_status_t
+INSTALL_STATUS_OK	adb_listeners.h	/^  INSTALL_STATUS_OK = 0,$/;"	e	enum:install_status_t
+InitUSB	usb_osx.cpp	/^InitUSB()$/;"	f	file:
+JDWP_CONTROL_NAME	jdwp_service.cpp	454;"	d	file:
+JDWP_CONTROL_NAME_LEN	jdwp_service.cpp	455;"	d	file:
+JdwpControl	jdwp_service.cpp	/^struct JdwpControl {$/;"	s	file:
+JdwpProcess	jdwp_service.cpp	/^struct JdwpProcess {$/;"	s	file:
+JdwpSocket	jdwp_service.cpp	/^struct JdwpSocket {$/;"	s	file:
+JdwpTracker	jdwp_service.cpp	/^struct JdwpTracker {$/;"	s	file:
+LIBADB_CFLAGS	Android.mk	/^LIBADB_CFLAGS := \\$/;"	m
+LIBADB_SRC_FILES	Android.mk	/^LIBADB_SRC_FILES := \\$/;"	m
+LIBADB_TEST_SRCS	Android.mk	/^LIBADB_TEST_SRCS := \\$/;"	m
+LIBADB_darwin_SRC_FILES	Android.mk	/^LIBADB_darwin_SRC_FILES := \\$/;"	m
+LIBADB_linux_SRC_FILES	Android.mk	/^LIBADB_linux_SRC_FILES := \\$/;"	m
+LIBADB_windows_SRC_FILES	Android.mk	/^LIBADB_windows_SRC_FILES := \\$/;"	m
+LISTEN_BACKLOG	sysdeps_win32.cpp	619;"	d	file:
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := $(LIBADB_CFLAGS) -DADB_HOST=0$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := $(LIBADB_CFLAGS) -DADB_HOST=1$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -DADB_HOST=0 $(LIBADB_CFLAGS)$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := -DADB_HOST=1 $(LIBADB_CFLAGS)$/;"	m
+LOCAL_CFLAGS	Android.mk	/^LOCAL_CFLAGS := \\$/;"	m
+LOCAL_CLANG	Android.mk	/^LOCAL_CLANG := $(adb_host_clang)$/;"	m
+LOCAL_CLANG	Android.mk	/^LOCAL_CLANG := true$/;"	m
+LOCAL_CXX_STL	Android.mk	/^    LOCAL_CXX_STL := libc++_static$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adb$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adb_device_tracker_test$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adb_test$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adbd$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := adbd_test$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libadb$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := libadbd$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := debug$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libbase$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libbase libcutils$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libbase$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES :=$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(LIBADB_TEST_SRCS) services.cpp$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(LIBADB_TEST_SRCS)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := test_track_devices.cpp$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libadb libcrypto_static libcutils$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libadbd$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := libcrypto_static$/;"	m
+LOCAL_UNSTRIPPED_PATH	Android.mk	/^LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)$/;"	m
+MATCH	sysdeps_win32.cpp	2611;"	d	file:
+MATCH	sysdeps_win32.cpp	2902;"	d	file:
+MATCH_KEYPAD	sysdeps_win32.cpp	2628;"	d	file:
+MATCH_KEYPAD	sysdeps_win32.cpp	2904;"	d	file:
+MATCH_MODIFIER	sysdeps_win32.cpp	2619;"	d	file:
+MATCH_MODIFIER	sysdeps_win32.cpp	2903;"	d	file:
+MATCH_MODIFIER_KEYPAD	sysdeps_win32.cpp	2638;"	d	file:
+MATCH_MODIFIER_KEYPAD	sysdeps_win32.cpp	2905;"	d	file:
+MAX_LOOPER_HANDLES	sysdeps_win32.cpp	1362;"	d	file:
+MAX_OUT_FDS	jdwp_service.cpp	117;"	d	file:
+MAX_PACKET_SIZE_FS	usb_linux_client.cpp	36;"	d	file:
+MAX_PACKET_SIZE_HS	usb_linux_client.cpp	37;"	d	file:
+MAX_PACKET_SIZE_SS	usb_linux_client.cpp	38;"	d	file:
+MAX_PAYLOAD	adb.h	26;"	d
+MKID	file_sync_service.h	25;"	d
+NOW	file_sync_client.cpp	/^static long long NOW()$/;"	f	file:
+OS_PATH_SEPARATOR	sysdeps.h	293;"	d
+OS_PATH_SEPARATOR	sysdeps.h	57;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	294;"	d
+OS_PATH_SEPARATOR_STR	sysdeps.h	58;"	d
+PREFIX	sockets.cpp	642;"	d	file:
+QUIT	console.cpp	35;"	d	file:
+RSA_to_RSAPublicKey	adb_auth_host.cpp	/^static int RSA_to_RSAPublicKey(RSA *rsa, RSAPublicKey *pkey)$/;"	f	file:
+RSA_verify	adb_auth_host.cpp	42;"	d	file:
+RSA_verify	adb_auth_host.cpp	44;"	d	file:
+ReadFdExactly	adb_io.cpp	/^bool ReadFdExactly(int fd, void* buf, size_t len) {$/;"	f
+ReadProtocolString	adb_client.cpp	/^static bool ReadProtocolString(int fd, std::string* s, std::string* error) {$/;"	f	file:
+RunLoopThread	usb_osx.cpp	/^void* RunLoopThread(void* unused)$/;"	f
+SAFE_SPRINTF	fdevent.cpp	329;"	d	file:
+SCRATCH_DIR	tests/test_adb.py	/^    SCRATCH_DIR = "\/data\/local\/tmp"$/;"	v	class:AdbFile
+SHELL_COMMAND	services.cpp	344;"	d	file:
+SHELL_COMMAND	services.cpp	346;"	d	file:
+SHELL_EXIT_NOTIFY_FD	fdevent.cpp	/^int SHELL_EXIT_NOTIFY_FD = -1;$/;"	v
+SIDELOAD_HOST_BLOCK_SIZE	commandline.cpp	498;"	d	file:
+SS3	sysdeps_win32.cpp	2648;"	d	file:
+SS3	sysdeps_win32.cpp	2908;"	d	file:
+STR_INTERFACE_	usb_linux_client.cpp	184;"	d	file:
+SUBPROC_PTY	adb.h	/^    SUBPROC_PTY = 0,$/;"	e	enum:subproc_mode
+SUBPROC_RAW	adb.h	/^    SUBPROC_RAW = 1,$/;"	e	enum:subproc_mode
+SYNC_DATA_MAX	file_sync_service.h	75;"	d
+S_ISLNK	sysdeps.h	109;"	d
+SendFail	adb_io.cpp	/^bool SendFail(int fd, const std::string& reason) {$/;"	f
+SendOkay	adb_io.cpp	/^bool SendOkay(int fd) {$/;"	f
+SendProtocolString	adb_io.cpp	/^bool SendProtocolString(int fd, const std::string& s) {$/;"	f
+SocketPair	sysdeps_win32.cpp	/^typedef struct SocketPairRec_*  SocketPair;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec	sysdeps_win32.cpp	/^} SocketPairRec;$/;"	t	typeref:struct:SocketPairRec_	file:
+SocketPairRec_	sysdeps_win32.cpp	/^typedef struct SocketPairRec_$/;"	s	file:
+TEMP_FAILURE_RETRY	sysdeps.h	34;"	d
+TEST	adb_io_test.cpp	/^TEST(io, ReadFdExactly_eof) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, ReadFdExactly_partial) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, ReadFdExactly_whole) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, WriteFdExactly_ENOSPC) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, WriteFdExactly_partial) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, WriteFdExactly_string) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, WriteFdExactly_whole) {$/;"	f
+TEST	adb_io_test.cpp	/^TEST(io, WriteFdFmt) {$/;"	f
+TEST	adb_utils_test.cpp	/^TEST(adb_utils, directory_exists) {$/;"	f
+TEST	adb_utils_test.cpp	/^TEST(adb_utils, escape_arg) {$/;"	f
+TEST	transport_test.cpp	/^TEST(transport, DISABLED_run_transport_disconnects_zeroed_atransport) {$/;"	f
+TEST	transport_test.cpp	/^TEST(transport, kick_transport) {$/;"	f
+TEST	transport_test.cpp	/^TEST(transport, kick_transport_already_kicked) {$/;"	f
+TOASCII_KEY_DOWN	sysdeps_win32.cpp	/^static const BYTE TOASCII_KEY_DOWN = 0x80;$/;"	v	file:
+TOASCII_KEY_OFF	sysdeps_win32.cpp	/^static const BYTE TOASCII_KEY_OFF = 0x00;$/;"	v	file:
+TOASCII_KEY_TOGGLED_ON	sysdeps_win32.cpp	/^static const BYTE TOASCII_KEY_TOGGLED_ON = 0x01;   \/\/ for CapsLock$/;"	v	file:
+TOKEN_SIZE	adb.h	171;"	d
+TRACE_ADB	adb_trace.h	/^    TRACE_ADB = 0,   \/* 0x001 *\/$/;"	e	enum:AdbTrace
+TRACE_AUTH	adb_trace.h	/^    TRACE_AUTH,$/;"	e	enum:AdbTrace
+TRACE_FDEVENT	adb_trace.h	/^    TRACE_FDEVENT,$/;"	e	enum:AdbTrace
+TRACE_JDWP	adb_trace.h	/^    TRACE_JDWP,      \/* 0x100 *\/$/;"	e	enum:AdbTrace
+TRACE_PACKETS	adb_trace.h	/^    TRACE_PACKETS,$/;"	e	enum:AdbTrace
+TRACE_RWX	adb_trace.h	/^    TRACE_RWX,       \/* 0x010 *\/$/;"	e	enum:AdbTrace
+TRACE_SERVICES	adb_trace.h	/^    TRACE_SERVICES,$/;"	e	enum:AdbTrace
+TRACE_SOCKETS	adb_trace.h	/^    TRACE_SOCKETS,$/;"	e	enum:AdbTrace
+TRACE_SYNC	adb_trace.h	/^    TRACE_SYNC,$/;"	e	enum:AdbTrace
+TRACE_SYSDEPS	adb_trace.h	/^    TRACE_SYSDEPS,$/;"	e	enum:AdbTrace
+TRACE_TAG	adb.cpp	17;"	d	file:
+TRACE_TAG	adb_auth.cpp	17;"	d	file:
+TRACE_TAG	adb_auth_client.cpp	17;"	d	file:
+TRACE_TAG	adb_auth_host.cpp	17;"	d	file:
+TRACE_TAG	adb_client.cpp	17;"	d	file:
+TRACE_TAG	adb_io.cpp	17;"	d	file:
+TRACE_TAG	adb_main.cpp	17;"	d	file:
+TRACE_TAG	adb_utils.cpp	17;"	d	file:
+TRACE_TAG	commandline.cpp	17;"	d	file:
+TRACE_TAG	fdevent.cpp	18;"	d	file:
+TRACE_TAG	file_sync_service.cpp	17;"	d	file:
+TRACE_TAG	jdwp_service.cpp	19;"	d	file:
+TRACE_TAG	remount_service.cpp	17;"	d	file:
+TRACE_TAG	services.cpp	17;"	d	file:
+TRACE_TAG	set_verity_enable_state_service.cpp	17;"	d	file:
+TRACE_TAG	sockets.cpp	17;"	d	file:
+TRACE_TAG	sysdeps_win32.cpp	17;"	d	file:
+TRACE_TAG	transport.cpp	1059;"	d	file:
+TRACE_TAG	transport.cpp	1060;"	d	file:
+TRACE_TAG	transport.cpp	17;"	d	file:
+TRACE_TAG	transport_local.cpp	17;"	d	file:
+TRACE_TAG	transport_usb.cpp	17;"	d	file:
+TRACE_TAG	usb_linux.cpp	17;"	d	file:
+TRACE_TAG	usb_linux_client.cpp	17;"	d	file:
+TRACE_TAG	usb_osx.cpp	17;"	d	file:
+TRACE_TAG	usb_windows.cpp	17;"	d	file:
+TRACE_TRANSPORT	adb_trace.h	/^    TRACE_TRANSPORT,$/;"	e	enum:AdbTrace
+TRACE_USB	adb_trace.h	/^    TRACE_USB,$/;"	e	enum:AdbTrace
+TemporaryFile	adb_io_test.cpp	/^  TemporaryFile() {$/;"	f	class:TemporaryFile
+TemporaryFile	adb_io_test.cpp	/^class TemporaryFile {$/;"	c	file:
+USB_ADB_PATH	adb.h	364;"	d
+USB_FFS_ADB_EP	adb.h	367;"	d
+USB_FFS_ADB_EP0	adb.h	369;"	d
+USB_FFS_ADB_IN	adb.h	371;"	d
+USB_FFS_ADB_OUT	adb.h	370;"	d
+USB_FFS_ADB_PATH	adb.h	366;"	d
+WAIT_ALL_CHUNK_SIZE	sysdeps_win32.cpp	1458;"	d	file:
+WIN32_FH_BASE	sysdeps_win32.cpp	166;"	d	file:
+WIN32_LEAN_AND_MEAN	adb_auth_host.cpp	28;"	d	file:
+WIN32_MAX_FHS	sysdeps_win32.cpp	168;"	d	file:
+WaitForAllParam	sysdeps_win32.cpp	/^typedef struct WaitForAllParam {$/;"	s	file:
+WaitForAllParam	sysdeps_win32.cpp	/^} WaitForAllParam;$/;"	t	typeref:struct:WaitForAllParam	file:
+WriteFdExactly	adb_io.cpp	/^bool WriteFdExactly(int fd, const char* str) {$/;"	f
+WriteFdExactly	adb_io.cpp	/^bool WriteFdExactly(int fd, const std::string& str) {$/;"	f
+WriteFdExactly	adb_io.cpp	/^bool WriteFdExactly(int fd, const void* buf, size_t len) {$/;"	f
+WriteFdFmt	adb_io.cpp	/^bool WriteFdFmt(int fd, const char* fmt, ...) {$/;"	f
+_ADB_CLIENT_H_	adb_client.h	2;"	d
+_ADB_SYSDEPS_H	sysdeps.h	21;"	d
+_ADB_UTILS_H_	adb_utils.h	18;"	d
+_FILE_SYNC_SERVICE_H_	file_sync_service.h	18;"	d
+_REMOUNT_SERVICE_H_	remount_service.h	18;"	d
+_WIN32	sysdeps.h	24;"	d
+__ADB_AUTH_H	adb_auth.h	18;"	d
+__ADB_H	adb.h	18;"	d
+__ADB_LISTENERS_H	adb_listeners.h	18;"	d
+__ADB_TRACE_H	adb_trace.h	18;"	d
+__FDEVENT_H	fdevent.h	18;"	d
+__QEMU_TRACING_H	qemu_tracing.h	22;"	d
+__TRANSPORT_H	transport.h	18;"	d
+__adb_serial	adb_client.cpp	/^static const char* __adb_serial = NULL;$/;"	v	file:
+__adb_server_name	adb_client.cpp	/^static const char* __adb_server_name = NULL;$/;"	v	file:
+__adb_server_port	adb_client.cpp	/^static int __adb_server_port = DEFAULT_ADB_PORT;$/;"	v	file:
+__adb_transport	adb_client.cpp	/^static transport_type __adb_transport = kTransportAny;$/;"	v	file:
+__init__	tests/test_adb.py	/^    def __init__(self, device=None, out_dir=None):$/;"	m	class:AdbWrapper
+__init__	tests/test_adb.py	/^    def __init__(self, handle, md5):$/;"	m	class:HostFile
+__init__	tests/test_adb.py	/^    def __init__(self, md5, full_path):$/;"	m	class:DeviceFile
+_adb_connect	adb_client.cpp	/^int _adb_connect(const std::string& service, std::string* error) {$/;"	f
+_cleanup_winsock	sysdeps_win32.cpp	/^_cleanup_winsock( void )$/;"	f	file:
+_console_handle	sysdeps_win32.cpp	/^static HANDLE _console_handle;  \/\/ when set, console mode should be restored$/;"	v	file:
+_console_read	sysdeps_win32.cpp	/^static int _console_read(const HANDLE console, void* buf, size_t len) {$/;"	f	file:
+_escape_prefix	sysdeps_win32.cpp	/^size_t _escape_prefix(char* const buf, const size_t len) {$/;"	f
+_event_file_peek	sysdeps_win32.cpp	/^static int  _event_file_peek( EventHook  hook )$/;"	f	file:
+_event_file_prepare	sysdeps_win32.cpp	/^static void  _event_file_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_check	sysdeps_win32.cpp	/^static int  _event_socket_check( EventHook  hook )$/;"	f	file:
+_event_socket_peek	sysdeps_win32.cpp	/^static int  _event_socket_peek( EventHook  hook )$/;"	f	file:
+_event_socket_prepare	sysdeps_win32.cpp	/^static void  _event_socket_prepare( EventHook  hook )$/;"	f	file:
+_event_socket_start	sysdeps_win32.cpp	/^static int _event_socket_start( EventHook  hook )$/;"	f	file:
+_event_socket_stop	sysdeps_win32.cpp	/^static void _event_socket_stop( EventHook  hook )$/;"	f	file:
+_event_socket_verify	sysdeps_win32.cpp	/^static void  _event_socket_verify( EventHook  hook, WSANETWORKEVENTS*  evts )$/;"	f	file:
+_event_socketpair_peek	sysdeps_win32.cpp	/^static int  _event_socketpair_peek( EventHook  hook )$/;"	f	file:
+_event_socketpair_prepare	sysdeps_win32.cpp	/^static void  _event_socketpair_prepare( EventHook  hook )$/;"	f	file:
+_event_socketpair_start	sysdeps_win32.cpp	/^ static int  _event_socketpair_start( EventHook  hook )$/;"	f	file:
+_fh_alloc	sysdeps_win32.cpp	/^_fh_alloc( FHClass  clazz )$/;"	f	file:
+_fh_close	sysdeps_win32.cpp	/^    int (*_fh_close)(FH);$/;"	m	struct:FHClassRec_	file:
+_fh_close	sysdeps_win32.cpp	/^_fh_close( FH   f )$/;"	f	file:
+_fh_file_class	sysdeps_win32.cpp	/^static const FHClassRec _fh_file_class = {$/;"	v	file:
+_fh_file_close	sysdeps_win32.cpp	/^static int _fh_file_close( FH  f ) {$/;"	f	file:
+_fh_file_hook	sysdeps_win32.cpp	/^static void  _fh_file_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_file_init	sysdeps_win32.cpp	/^static void _fh_file_init( FH  f ) {$/;"	f	file:
+_fh_file_lseek	sysdeps_win32.cpp	/^static int _fh_file_lseek( FH  f, int  pos, int  origin ) {$/;"	f	file:
+_fh_file_read	sysdeps_win32.cpp	/^static int _fh_file_read( FH  f,  void*  buf, int   len ) {$/;"	f	file:
+_fh_file_write	sysdeps_win32.cpp	/^static int _fh_file_write( FH  f,  const void*  buf, int   len ) {$/;"	f	file:
+_fh_from_int	sysdeps_win32.cpp	/^_fh_from_int( int   fd )$/;"	f	file:
+_fh_hook	sysdeps_win32.cpp	/^    void (*_fh_hook)(FH, int, EventHook);$/;"	m	struct:FHClassRec_	file:
+_fh_init	sysdeps_win32.cpp	/^    void (*_fh_init)(FH);$/;"	m	struct:FHClassRec_	file:
+_fh_lseek	sysdeps_win32.cpp	/^    int (*_fh_lseek)(FH, int, int);$/;"	m	struct:FHClassRec_	file:
+_fh_read	sysdeps_win32.cpp	/^    int (*_fh_read)(FH, void*, int);$/;"	m	struct:FHClassRec_	file:
+_fh_socket_class	sysdeps_win32.cpp	/^static const FHClassRec _fh_socket_class = {$/;"	v	file:
+_fh_socket_close	sysdeps_win32.cpp	/^static int _fh_socket_close( FH  f ) {$/;"	f	file:
+_fh_socket_hook	sysdeps_win32.cpp	/^static void  _fh_socket_hook( FH  f, int  events, EventHook  hook )$/;"	f	file:
+_fh_socket_init	sysdeps_win32.cpp	/^static void _fh_socket_init( FH  f ) {$/;"	f	file:
+_fh_socket_lseek	sysdeps_win32.cpp	/^static int _fh_socket_lseek( FH  f, int pos, int origin ) {$/;"	f	file:
+_fh_socket_read	sysdeps_win32.cpp	/^static int _fh_socket_read(FH f, void* buf, int len) {$/;"	f	file:
+_fh_socket_write	sysdeps_win32.cpp	/^static int _fh_socket_write(FH f, const void* buf, int len) {$/;"	f	file:
+_fh_socketpair_class	sysdeps_win32.cpp	/^static const FHClassRec  _fh_socketpair_class =$/;"	v	file:
+_fh_socketpair_close	sysdeps_win32.cpp	/^_fh_socketpair_close( FH  f )$/;"	f	file:
+_fh_socketpair_hook	sysdeps_win32.cpp	/^static void  _fh_socketpair_hook( FH  fh, int  events, EventHook  hook )$/;"	f	file:
+_fh_socketpair_init	sysdeps_win32.cpp	/^void _fh_socketpair_init( FH  f )$/;"	f
+_fh_socketpair_lseek	sysdeps_win32.cpp	/^_fh_socketpair_lseek( FH  f, int pos, int  origin )$/;"	f	file:
+_fh_socketpair_read	sysdeps_win32.cpp	/^_fh_socketpair_read( FH  f, void* buf, int  len )$/;"	f	file:
+_fh_socketpair_write	sysdeps_win32.cpp	/^_fh_socketpair_write( FH  f, const void*  buf, int  len )$/;"	f	file:
+_fh_to_int	sysdeps_win32.cpp	/^_fh_to_int( FH  f )$/;"	f	file:
+_fh_write	sysdeps_win32.cpp	/^    int (*_fh_write)(FH, const void*, int);$/;"	m	struct:FHClassRec_	file:
+_free_hooks	sysdeps_win32.cpp	/^static EventHook  _free_hooks;$/;"	v	file:
+_get_char_ignoring_modifier	sysdeps_win32.cpp	/^static size_t _get_char_ignoring_modifier(char* const ch,$/;"	f	file:
+_get_control_character	sysdeps_win32.cpp	/^static size_t _get_control_character(char* const pch,$/;"	f	file:
+_get_decimal_char	sysdeps_win32.cpp	/^static char _get_decimal_char() {$/;"	f	file:
+_get_interesting_input_record_uncached	sysdeps_win32.cpp	/^static bool _get_interesting_input_record_uncached(const HANDLE console,$/;"	f	file:
+_get_key_event_record	sysdeps_win32.cpp	/^static KEY_EVENT_RECORD* _get_key_event_record(const HANDLE console) {$/;"	f	file:
+_get_keypad_sequence	sysdeps_win32.cpp	/^static const char* _get_keypad_sequence(const DWORD control_key_state,$/;"	f	file:
+_get_modifier_keypad_sequence	sysdeps_win32.cpp	/^static size_t _get_modifier_keypad_sequence(char* const buf, const WORD vk,$/;"	f	file:
+_get_modifier_sequence	sysdeps_win32.cpp	/^static size_t _get_modifier_sequence(char* const buf, const WORD vk,$/;"	f	file:
+_get_non_alt_char	sysdeps_win32.cpp	/^static __inline__ size_t _get_non_alt_char(char* const ch,$/;"	f	file:
+_get_non_control_char	sysdeps_win32.cpp	/^static __inline__ size_t _get_non_control_char(char* const ch,$/;"	f	file:
+_in_waiter_thread	sysdeps_win32.cpp	/^_in_waiter_thread(void*  arg)$/;"	f	file:
+_init_winsock	sysdeps_win32.cpp	/^_init_winsock( void )$/;"	f	file:
+_is_alt_pressed	sysdeps_win32.cpp	/^static __inline__ bool _is_alt_pressed(const DWORD control_key_state) {$/;"	f	file:
+_is_capslock_on	sysdeps_win32.cpp	/^static __inline__ bool _is_capslock_on(const DWORD control_key_state) {$/;"	f	file:
+_is_ctrl_pressed	sysdeps_win32.cpp	/^static __inline__ bool _is_ctrl_pressed(const DWORD control_key_state) {$/;"	f	file:
+_is_enhanced_key	sysdeps_win32.cpp	/^static __inline__ bool _is_enhanced_key(const DWORD control_key_state) {$/;"	f	file:
+_is_numlock_on	sysdeps_win32.cpp	/^static __inline__ bool _is_numlock_on(const DWORD control_key_state) {$/;"	f	file:
+_is_shift_pressed	sysdeps_win32.cpp	/^static __inline__ bool _is_shift_pressed(const DWORD control_key_state) {$/;"	f	file:
+_jdwp_control	jdwp_service.cpp	/^static JdwpControl   _jdwp_control;$/;"	v	file:
+_jdwp_list	jdwp_service.cpp	/^static JdwpProcess  _jdwp_list;$/;"	v	file:
+_jdwp_trackers_list	jdwp_service.cpp	/^static JdwpTracker   _jdwp_trackers_list;$/;"	v	file:
+_normalize_altgr_control_key_state	sysdeps_win32.cpp	/^static DWORD _normalize_altgr_control_key_state($/;"	f	file:
+_normalize_keypad_control_key_state	sysdeps_win32.cpp	/^static DWORD _normalize_keypad_control_key_state(const WORD vk,$/;"	f	file:
+_old_console_mode	sysdeps_win32.cpp	/^static DWORD _old_console_mode; \/\/ previous GetConsoleMode() result$/;"	v	file:
+_socket_set_errno	sysdeps_win32.cpp	/^static void _socket_set_errno( void ) {$/;"	f	file:
+_socket_wanted_to_flags	sysdeps_win32.cpp	/^static int  _socket_wanted_to_flags( int  wanted )$/;"	f	file:
+_test_root	tests/test_adb.py	/^    def _test_root(self):$/;"	m	class:AdbBasic
+_test_unroot	tests/test_adb.py	/^    def _test_unroot(self):$/;"	m	class:AdbBasic
+_wait_for_all	sysdeps_win32.cpp	/^_wait_for_all(HANDLE* handles, int handles_count)$/;"	f	file:
+_win32_fh_count	sysdeps_win32.cpp	/^static  int          _win32_fh_count;$/;"	v	file:
+_win32_fhs	sysdeps_win32.cpp	/^static  FHRec        _win32_fhs[ WIN32_MAX_FHS ];$/;"	v	file:
+_win32_input_record	sysdeps_win32.cpp	/^static INPUT_RECORD _win32_input_record;$/;"	v	file:
+_win32_lock	sysdeps_win32.cpp	/^static adb_mutex_t   _win32_lock;$/;"	v	file:
+_winsock_init	sysdeps_win32.cpp	/^static int  _winsock_init;$/;"	v	file:
+a2b_bip	sysdeps_win32.cpp	/^    BipBufferRec  a2b_bip;$/;"	m	struct:SocketPairRec_	file:
+a_end	sysdeps_win32.cpp	/^    int                a_end;$/;"	m	struct:BipBufferRec_	file:
+a_fd	sysdeps_win32.cpp	/^    FH            a_fd;$/;"	m	struct:SocketPairRec_	file:
+a_start	sysdeps_win32.cpp	/^    int                a_start;$/;"	m	struct:BipBufferRec_	file:
+accept	sysdeps.h	221;"	d
+accept	sysdeps.h	222;"	d
+accept	sysdeps.h	425;"	d
+accept	sysdeps.h	426;"	d
+accept	sysdeps_win32.cpp	763;"	d	file:
+acquire_one_transport	transport.cpp	/^atransport* acquire_one_transport(int state, transport_type ttype,$/;"	f
+action	transport.cpp	/^    int         action;$/;"	m	struct:tmsg	file:
+adb_auth_confirm_key	adb_auth.h	/^static inline void adb_auth_confirm_key(unsigned char *data, size_t len, atransport *t) { }$/;"	f
+adb_auth_confirm_key	adb_auth_client.cpp	/^void adb_auth_confirm_key(unsigned char *key, size_t len, atransport *t)$/;"	f
+adb_auth_event	adb_auth_client.cpp	/^static void adb_auth_event(int fd, unsigned events, void *data)$/;"	f	file:
+adb_auth_generate_token	adb_auth.h	/^static inline int adb_auth_generate_token(void *token, size_t token_size) { return 0; }$/;"	f
+adb_auth_generate_token	adb_auth_client.cpp	/^int adb_auth_generate_token(void *token, size_t token_size)$/;"	f
+adb_auth_get_userkey	adb_auth.h	/^static inline int adb_auth_get_userkey(unsigned char *data, size_t len) { return 0; }$/;"	f
+adb_auth_get_userkey	adb_auth_host.cpp	/^int adb_auth_get_userkey(unsigned char *data, size_t len)$/;"	f
+adb_auth_init	adb_auth_host.cpp	/^void adb_auth_init(void)$/;"	f
+adb_auth_keygen	adb_auth_host.cpp	/^int adb_auth_keygen(const char* filename) {$/;"	f
+adb_auth_listener	adb_auth_client.cpp	/^static void adb_auth_listener(int fd, unsigned events, void *data)$/;"	f	file:
+adb_auth_nextkey	adb_auth.h	/^static inline void *adb_auth_nextkey(void *current) { return NULL; }$/;"	f
+adb_auth_nextkey	adb_auth_host.cpp	/^void *adb_auth_nextkey(void *current)$/;"	f
+adb_auth_sign	adb_auth.h	/^static inline int adb_auth_sign(void* key, const unsigned char* token,$/;"	f
+adb_auth_sign	adb_auth_host.cpp	/^int adb_auth_sign(void *node, const unsigned char* token, size_t token_size,$/;"	f
+adb_auth_verified	adb_auth.cpp	/^void adb_auth_verified(atransport *t)$/;"	f
+adb_auth_verify	adb_auth.h	/^static inline int adb_auth_verify(void *token, void *sig, int siglen) { return 0; }$/;"	f
+adb_auth_verify	adb_auth_client.cpp	/^int adb_auth_verify(uint8_t* token, uint8_t* sig, int siglen)$/;"	f
+adb_cleanup	adb_main.cpp	/^static void adb_cleanup(void)$/;"	f	file:
+adb_close	sysdeps.h	/^static __inline__ int  adb_close(int fd)$/;"	f
+adb_close	sysdeps_win32.cpp	/^int  adb_close(int  fd)$/;"	f
+adb_command	adb_client.cpp	/^int adb_command(const std::string& service, std::string* error) {$/;"	f
+adb_commandline	commandline.cpp	/^int adb_commandline(int argc, const char **argv) {$/;"	f
+adb_cond_broadcast	sysdeps.h	310;"	d
+adb_cond_destroy	sysdeps.h	312;"	d
+adb_cond_init	sysdeps.h	308;"	d
+adb_cond_signal	sysdeps.h	311;"	d
+adb_cond_t	sysdeps.h	307;"	d
+adb_cond_wait	sysdeps.h	309;"	d
+adb_connect	adb_client.cpp	/^int adb_connect(const std::string& service, std::string* error) {$/;"	f
+adb_connect_command	commandline.cpp	/^static int adb_connect_command(const std::string& command) {$/;"	f	file:
+adb_creat	sysdeps.h	/^static __inline__  int  adb_creat(const char*  path, int  mode)$/;"	f
+adb_creat	sysdeps_win32.cpp	/^int  adb_creat(const char*  path, int  mode)$/;"	f
+adb_debug_qemu	qemu_tracing.cpp	/^int   adb_debug_qemu = -1;$/;"	v
+adb_device_banner	adb.cpp	/^const char *adb_device_banner = "device";$/;"	v
+adb_dirstart	sysdeps.h	/^static __inline__  char*  adb_dirstart( const char*  path )$/;"	f
+adb_dirstart	sysdeps.h	/^static __inline__ char*  adb_dirstart(const char*  path)$/;"	f
+adb_dirstop	sysdeps.h	/^static __inline__  char*  adb_dirstop( const char*  path )$/;"	f
+adb_dirstop	sysdeps.h	/^static __inline__ char*  adb_dirstop(const char*  path)$/;"	f
+adb_download_buffer	commandline.cpp	/^static int adb_download_buffer(const char *service, const char *fn, const void* data, unsigned sz,$/;"	f	file:
+adb_get_emulator_console_port	adb_client.cpp	/^int adb_get_emulator_console_port() {$/;"	f
+adb_host_clang	Android.mk	/^  adb_host_clang := false  # libc++ for mingw not ready yet.$/;"	m
+adb_host_clang	Android.mk	/^  adb_host_clang := true$/;"	m
+adb_interface	usb_windows.cpp	/^  ADBAPIHANDLE  adb_interface;$/;"	m	struct:usb_handle	file:
+adb_is_absolute_host_path	sysdeps.h	/^static __inline__  int  adb_is_absolute_host_path( const char*  path )$/;"	f
+adb_lseek	sysdeps.h	/^static __inline__ int   adb_lseek(int  fd, int  pos, int  where)$/;"	f
+adb_lseek	sysdeps_win32.cpp	/^int  adb_lseek(int  fd, int  pos, int  where)$/;"	f
+adb_main	adb_main.cpp	/^int adb_main(int is_daemon, int server_port)$/;"	f
+adb_mkdir	sysdeps.h	/^static __inline__ int  adb_mkdir(const char*  path, int mode)$/;"	f
+adb_mutex_destroy	sysdeps.h	303;"	d
+adb_mutex_init	sysdeps.h	300;"	d
+adb_mutex_lock	sysdeps.h	/^static __inline__ void adb_mutex_lock( adb_mutex_t*  lock )$/;"	f
+adb_mutex_lock	sysdeps.h	301;"	d
+adb_mutex_t	sysdeps.h	/^typedef  pthread_mutex_t          adb_mutex_t;$/;"	t
+adb_mutex_t	sysdeps.h	/^typedef CRITICAL_SECTION          adb_mutex_t;$/;"	t
+adb_mutex_unlock	sysdeps.h	/^static __inline__ void  adb_mutex_unlock( adb_mutex_t*  lock )$/;"	f
+adb_mutex_unlock	sysdeps.h	302;"	d
+adb_open	sysdeps.h	/^static __inline__ int  adb_open( const char*  pathname, int  options )$/;"	f
+adb_open	sysdeps_win32.cpp	/^int  adb_open(const char*  path, int  options)$/;"	f
+adb_open_mode	sysdeps.h	/^static __inline__ int  adb_open_mode( const char*  pathname, int  options, int  mode )$/;"	f
+adb_open_mode	sysdeps.h	/^static __inline__ int  adb_open_mode(const char* path, int options, int mode)$/;"	f
+adb_port	adb.h	/^    int adb_port; \/\/ Use for emulators (local transport)$/;"	m	struct:atransport
+adb_private_key	adb_auth_host.cpp	/^struct adb_private_key {$/;"	s	file:
+adb_public_key	adb_auth_client.cpp	/^struct adb_public_key {$/;"	s	file:
+adb_qemu_trace	qemu_tracing.cpp	/^void adb_qemu_trace(const char* fmt, ...)$/;"	f
+adb_qemu_trace_init	qemu_tracing.cpp	/^int adb_qemu_trace_init(void)$/;"	f
+adb_query	adb_client.cpp	/^bool adb_query(const std::string& service, std::string* result, std::string* error) {$/;"	f
+adb_query_command	commandline.cpp	/^static int adb_query_command(const std::string& command) {$/;"	f	file:
+adb_read	sysdeps.h	/^static __inline__  int  adb_read(int  fd, void*  buf, size_t  len)$/;"	f
+adb_read	sysdeps_win32.cpp	/^int  adb_read(int  fd, void* buf, int len)$/;"	f
+adb_read_pipe	usb_windows.cpp	/^  ADBAPIHANDLE  adb_read_pipe;$/;"	m	struct:usb_handle	file:
+adb_send_emulator_command	console.cpp	/^int  adb_send_emulator_command(int  argc, const char**  argv)$/;"	f
+adb_set_affinity	adb_main.cpp	/^void adb_set_affinity(void)$/;"	f
+adb_set_tcp_name	adb_client.cpp	/^void adb_set_tcp_name(const char* hostname)$/;"	f
+adb_set_tcp_specifics	adb_client.cpp	/^void adb_set_tcp_specifics(int server_port)$/;"	f
+adb_set_transport	adb_client.cpp	/^void adb_set_transport(transport_type type, const char* serial)$/;"	f
+adb_setsockopt	sysdeps.h	/^static __inline__ int  adb_setsockopt( int  fd, int  level, int  optname, const void*  optval, socklen_t  optlen )$/;"	f
+adb_setsockopt	sysdeps_win32.cpp	/^int  adb_setsockopt( int  fd, int  level, int  optname, const void*  optval, socklen_t  optlen )$/;"	f
+adb_shutdown	sysdeps.h	/^static __inline__ int  adb_shutdown(int fd)$/;"	f
+adb_shutdown	sysdeps_win32.cpp	/^int  adb_shutdown(int  fd)$/;"	f
+adb_sideload_host	commandline.cpp	/^static int adb_sideload_host(const char* fn) {$/;"	f	file:
+adb_sleep_ms	sysdeps.h	/^static __inline__ void  adb_sleep_ms( int  mseconds )$/;"	f
+adb_socket_accept	sysdeps.h	/^static __inline__ int  adb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+adb_socket_accept	sysdeps_win32.cpp	/^int  adb_socket_accept(int  serverfd, struct sockaddr*  addr, socklen_t  *addrlen)$/;"	f
+adb_socket_setbufsize	sysdeps.h	/^static __inline__  int  adb_socket_setbufsize( int   fd, int  bufsize )$/;"	f
+adb_socketpair	sysdeps.h	/^static __inline__ int  adb_socketpair( int  sv[2] )$/;"	f
+adb_socketpair	sysdeps_win32.cpp	/^int  adb_socketpair(int sv[2]) {$/;"	f
+adb_status	adb_client.cpp	/^bool adb_status(int fd, std::string* error) {$/;"	f
+adb_sysdeps_init	sysdeps.h	/^static __inline__ void  adb_sysdeps_init(void)$/;"	f
+adb_sysdeps_init	sysdeps_win32.cpp	/^adb_sysdeps_init( void )$/;"	f
+adb_thread_create	sysdeps.h	/^static __inline__ int  adb_thread_create( adb_thread_t  *pthread, adb_thread_func_t  start, void*  arg )$/;"	f
+adb_thread_create	sysdeps.h	/^static __inline__ int  adb_thread_create( adb_thread_t  *thread, adb_thread_func_t  func, void*  arg)$/;"	f
+adb_thread_func_t	sysdeps.h	/^typedef  void*  (*adb_thread_func_t)(void*  arg);$/;"	t
+adb_thread_func_t	sysdeps.h	/^typedef void*  (*adb_thread_func_t)( void*  arg );$/;"	t
+adb_thread_id	sysdeps.h	/^static __inline__  unsigned long adb_thread_id()$/;"	f
+adb_thread_id	sysdeps.h	/^static __inline__ unsigned long adb_thread_id()$/;"	f
+adb_thread_t	sysdeps.h	/^typedef  pthread_t                 adb_thread_t;$/;"	t
+adb_thread_t	sysdeps.h	/^typedef struct { unsigned  tid; }  adb_thread_t;$/;"	t	typeref:struct:__anon9
+adb_trace_init	adb.cpp	/^void adb_trace_init() {$/;"	f
+adb_trace_mask	adb.cpp	/^int adb_trace_mask;$/;"	v
+adb_unlink	sysdeps.h	/^static __inline__  int    adb_unlink(const char*  path)$/;"	f
+adb_version	Android.mk	/^adb_version := $(shell git -C $(LOCAL_PATH) rev-parse --short=12 HEAD 2>\/dev\/null)-android$/;"	m
+adb_write	sysdeps.h	/^static __inline__  int  adb_write(int  fd, const void*  buf, size_t  len)$/;"	f
+adb_write	sysdeps_win32.cpp	/^int  adb_write(int  fd, const void*  buf, int  len)$/;"	f
+adb_write_pipe	usb_windows.cpp	/^  ADBAPIHANDLE  adb_write_pipe;$/;"	m	struct:usb_handle	file:
+adbd_auth_init	adb_auth_client.cpp	/^void adbd_auth_init(void) {$/;"	f
+adbd_cloexec_auth_socket	adb_auth_client.cpp	/^void adbd_cloexec_auth_socket() {$/;"	f
+add_slash_to_path	file_sync_client.cpp	/^static char *add_slash_to_path(const char *path)$/;"	f	file:
+add_transport_disconnect	transport.cpp	/^void add_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+adisconnect	adb.h	/^struct  adisconnect$/;"	s
+alistener	adb.h	/^struct alistener$/;"	s
+alpha_length	framebuffer_service.cpp	/^    unsigned int alpha_length;$/;"	m	struct:fbinfo	file:
+alpha_offset	framebuffer_service.cpp	/^    unsigned int alpha_offset;$/;"	m	struct:fbinfo	file:
+amessage	adb.h	/^struct amessage {$/;"	s
+apacket	adb.h	/^struct apacket$/;"	s
+append_transport	transport.cpp	/^static void append_transport(atransport* t, std::string* result, bool long_listing) {$/;"	f	file:
+append_transport_info	transport.cpp	/^static void append_transport_info(std::string* result, const char* key,$/;"	f	file:
+aremotesocket	sockets.cpp	/^struct aremotesocket {$/;"	s	file:
+arg	fdevent.h	/^    void *arg;$/;"	m	struct:fdevent
+arg0	adb.h	/^    unsigned arg0;          \/* first argument                   *\/$/;"	m	struct:amessage
+arg1	adb.h	/^    unsigned arg1;          \/* second argument                  *\/$/;"	m	struct:amessage
+asocket	adb.h	/^struct asocket {$/;"	s
+assert	sysdeps_win32.cpp	79;"	d	file:
+atransport	adb.h	/^struct atransport$/;"	s
+auth_fde	adb.h	/^    fdevent auth_fde;$/;"	m	struct:atransport
+auth_required	adb_auth.cpp	/^bool auth_required = true;$/;"	v
+aux	sysdeps_win32.cpp	/^    void*        aux;$/;"	m	struct:EventHookRec_	file:
+b2a_bip	sysdeps_win32.cpp	/^    BipBufferRec  b2a_bip;$/;"	m	struct:SocketPairRec_	file:
+b_end	sysdeps_win32.cpp	/^    int                b_end;$/;"	m	struct:BipBufferRec_	file:
+backup	commandline.cpp	/^static int backup(int argc, const char** argv) {$/;"	f	file:
+badname	usb_linux.cpp	/^static inline int badname(const char *name)$/;"	f	file:
+bip_buffer_close	sysdeps_win32.cpp	/^bip_buffer_close( BipBuffer  bip )$/;"	f	file:
+bip_buffer_done	sysdeps_win32.cpp	/^bip_buffer_done( BipBuffer  bip )$/;"	f	file:
+bip_buffer_init	sysdeps_win32.cpp	/^bip_buffer_init( BipBuffer  buffer )$/;"	f	file:
+bip_buffer_read	sysdeps_win32.cpp	/^bip_buffer_read( BipBuffer  bip, void*  dst, int  len )$/;"	f	file:
+bip_buffer_write	sysdeps_win32.cpp	/^bip_buffer_write( BipBuffer  bip, const void* src, int  len )$/;"	f	file:
+blue_length	framebuffer_service.cpp	/^    unsigned int blue_length;$/;"	m	struct:fbinfo	file:
+blue_offset	framebuffer_service.cpp	/^    unsigned int blue_offset;$/;"	m	struct:fbinfo	file:
+bpp	framebuffer_service.cpp	/^    unsigned int bpp;$/;"	m	struct:fbinfo	file:
+buff	sysdeps_win32.cpp	/^    unsigned char      buff[ BIP_BUFFER_SIZE ];$/;"	m	struct:BipBufferRec_	file:
+bulkIn	usb_osx.cpp	/^    UInt8                     bulkIn;$/;"	m	struct:usb_handle	file:
+bulkOut	usb_osx.cpp	/^    UInt8                     bulkOut;$/;"	m	struct:usb_handle	file:
+bulk_in	usb_linux_client.cpp	/^    int bulk_in;  \/* "in" from the host's perspective => sink for adbd *\/$/;"	m	struct:usb_handle	file:
+bulk_out	usb_linux_client.cpp	/^    int bulk_out; \/* "out" from the host's perspective => source for adbd *\/$/;"	m	struct:usb_handle	file:
+bulk_read	usb_linux_client.cpp	/^static int bulk_read(int bulk_out, uint8_t* buf, size_t length)$/;"	f	file:
+bulk_write	usb_linux_client.cpp	/^static int bulk_write(int bulk_in, const uint8_t* buf, size_t length)$/;"	f	file:
+call	tests/test_adb.py	/^def call(cmd_str):$/;"	f
+call_checked	tests/test_adb.py	/^def call_checked(cmd_str):$/;"	f
+call_checked_list	tests/test_adb.py	/^def call_checked_list(cmd_str):$/;"	f
+call_checked_list_skip	tests/test_adb.py	/^def call_checked_list_skip(cmd_str):$/;"	f
+call_combined	tests/test_adb.py	/^def call_combined(cmd_str):$/;"	f
+can_read	sysdeps_win32.cpp	/^    int                can_read;   \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+can_write	sysdeps_win32.cpp	/^    int                can_write;  \/* boolean *\/$/;"	m	struct:BipBufferRec_	file:
+check	sysdeps_win32.cpp	/^    int         (*check)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+check_data	transport.cpp	/^int check_data(apacket *p)$/;"	f
+check_header	transport.cpp	/^int check_header(apacket *p)$/;"	f
+clazz	sysdeps_win32.cpp	/^    FHClass    clazz;$/;"	m	struct:FHRec_	file:
+client_socket_thread	transport_local.cpp	/^static void *client_socket_thread(void *x)$/;"	f	file:
+close	adb.h	/^    void (*close)(asocket *s);$/;"	m	struct:asocket
+close	adb.h	/^    void (*close)(atransport *t);$/;"	m	struct:atransport
+close	sysdeps.h	146;"	d
+close	sysdeps.h	147;"	d
+close	sysdeps.h	368;"	d
+close	sysdeps.h	369;"	d
+close_all_sockets	sockets.cpp	/^void close_all_sockets(atransport *t)$/;"	f
+close_on_exec	sysdeps.h	/^static __inline__ void  close_on_exec(int  fd)$/;"	f
+close_stdin	adb_main.cpp	/^void close_stdin() {$/;"	f
+close_usb_devices	transport.cpp	/^void close_usb_devices()$/;"	f
+closed	sysdeps_win32.cpp	/^    int                closed;$/;"	m	struct:BipBufferRec_	file:
+closing	adb.h	/^    int    closing;$/;"	m	struct:asocket
+code	usb_linux_client.cpp	/^        __le16 code;$/;"	m	struct:__anon1::__anon2	file:
+command	adb.h	/^    unsigned command;       \/* command identifier constant      *\/$/;"	m	struct:amessage
+compute_md5	tests/test_adb.py	/^def compute_md5(string):$/;"	f
+connect	tests/test_adb.py	/^    def connect(self, host):$/;"	m	class:AdbWrapper
+connect_device	services.cpp	/^static void connect_device(const std::string& host, std::string* response) {$/;"	f	file:
+connect_emulator	services.cpp	/^void connect_emulator(const std::string& port_spec, std::string* response) {$/;"	f
+connect_service	services.cpp	/^static void connect_service(int fd, void* cookie)$/;"	f	file:
+connect_to	adb.h	/^    char *connect_to;$/;"	m	struct:alistener
+connect_to_console	console.cpp	/^static int  connect_to_console(void)$/;"	f	file:
+connect_to_remote	sockets.cpp	/^void connect_to_remote(asocket *s, const char *destination)$/;"	f
+connect_to_smartsocket	sockets.cpp	/^void connect_to_smartsocket(asocket *s)$/;"	f
+connection_state	adb.h	/^    int connection_state;$/;"	m	struct:atransport
+connection_state_name	transport.cpp	/^const char* atransport::connection_state_name() const {$/;"	f	class:atransport
+control	usb_linux_client.cpp	/^    int control;$/;"	m	struct:usb_handle	file:
+cookie	services.cpp	/^    void *cookie;$/;"	m	struct:stinfo	file:
+copy_local_dir_remote	file_sync_client.cpp	/^static int copy_local_dir_remote(int fd, const char *lpath, const char *rpath, int checktimestamps, int listonly)$/;"	f	file:
+copy_remote_dir_local	file_sync_client.cpp	/^static int copy_remote_dir_local(int fd, const char *rpath, const char *lpath,$/;"	f	file:
+copy_to_file	commandline.cpp	/^static void copy_to_file(int inFd, int outFd) {$/;"	f	file:
+copyinfo	file_sync_client.cpp	/^struct copyinfo$/;"	s	file:
+cpu_to_le16	usb_linux_client.cpp	40;"	d	file:
+cpu_to_le32	usb_linux_client.cpp	41;"	d	file:
+creat	sysdeps.h	411;"	d
+creat	sysdeps.h	412;"	d
+create_device_tracker	transport.cpp	/^create_device_tracker(void)$/;"	f
+create_host_service_socket	sockets.cpp	/^static asocket *create_host_service_socket(const char *name, const char* serial)$/;"	f	file:
+create_jdwp_connection_fd	jdwp_service.cpp	/^create_jdwp_connection_fd(int  pid)$/;"	f
+create_jdwp_service_socket	jdwp_service.cpp	/^create_jdwp_service_socket( void )$/;"	f
+create_jdwp_tracker_service_socket	jdwp_service.cpp	/^create_jdwp_tracker_service_socket( void )$/;"	f
+create_local_service_socket	sockets.cpp	/^asocket *create_local_service_socket(const char *name)$/;"	f
+create_local_socket	sockets.cpp	/^asocket *create_local_socket(int fd)$/;"	f
+create_remote_socket	sockets.cpp	/^asocket *create_remote_socket(unsigned id, atransport *t)$/;"	f
+create_service_thread	services.cpp	/^static int create_service_thread(void (*func)(int, void *), void *cookie)$/;"	f	file:
+create_smart_socket	sockets.cpp	/^static asocket *create_smart_socket(void)$/;"	f	file:
+create_subproc_pty	services.cpp	/^static int create_subproc_pty(const char *cmd, const char *arg0, const char *arg1, pid_t *pid)$/;"	f	file:
+create_subproc_raw	services.cpp	/^static int create_subproc_raw(const char *cmd, const char *arg0, const char *arg1, pid_t *pid)$/;"	f	file:
+create_subproc_thread	services.cpp	/^static int create_subproc_thread(const char *name, const subproc_mode mode)$/;"	f	file:
+ctrlc_handler	adb_main.cpp	/^static BOOL WINAPI ctrlc_handler(DWORD type)$/;"	f	file:
+currentRunLoop	usb_osx.cpp	/^static CFRunLoopRef currentRunLoop = 0;$/;"	v	file:
+data	adb.h	/^    unsigned char data[MAX_PAYLOAD];$/;"	m	struct:apacket
+data	file_sync_client.cpp	/^    char data[SYNC_DATA_MAX];$/;"	m	struct:syncsendbuf	file:
+data	file_sync_service.h	/^    } data;$/;"	m	union:syncmsg	typeref:struct:syncmsg::__anon6
+data_check	adb.h	/^    unsigned data_check;    \/* checksum of data payload         *\/$/;"	m	struct:amessage
+data_length	adb.h	/^    unsigned data_length;   \/* length of payload (0 is allowed) *\/$/;"	m	struct:amessage
+dead	usb_linux.cpp	/^    int dead;$/;"	m	struct:usb_handle	file:
+delete_file	commandline.cpp	/^static int delete_file(transport_type transport, const char* serial, char* filename)$/;"	f	file:
+dent	file_sync_service.h	/^    } dent;$/;"	m	union:syncmsg	typeref:struct:syncmsg::__anon5
+desc	usb_linux.cpp	/^    int desc;$/;"	m	struct:usb_handle	file:
+desc_v1	usb_linux_client.cpp	/^struct desc_v1 {$/;"	s	file:
+desc_v2	usb_linux_client.cpp	/^struct desc_v2 {$/;"	s	file:
+dev_count	tests/test_adb.py	/^    dev_count = get_attached_device_count()$/;"	v	class:AdbFile
+device	adb.h	/^    char *device;$/;"	m	struct:atransport
+device_poll_thread	usb_linux.cpp	/^static void* device_poll_thread(void* unused) {$/;"	f	file:
+device_poll_thread	usb_windows.cpp	/^void* device_poll_thread(void* unused) {$/;"	f
+device_tracker	transport.cpp	/^struct device_tracker {$/;"	s	file:
+device_tracker_close	transport.cpp	/^device_tracker_close( asocket*  socket )$/;"	f	file:
+device_tracker_enqueue	transport.cpp	/^device_tracker_enqueue( asocket*  socket, apacket*  p )$/;"	f	file:
+device_tracker_list	transport.cpp	/^static device_tracker*   device_tracker_list;$/;"	v	file:
+device_tracker_ready	transport.cpp	/^static void device_tracker_ready(asocket* socket) {$/;"	f	file:
+device_tracker_remove	transport.cpp	/^device_tracker_remove( device_tracker*  tracker )$/;"	f	file:
+device_tracker_send	transport.cpp	/^static int device_tracker_send(device_tracker* tracker, const std::string& string) {$/;"	f	file:
+devpath	adb.h	/^    char *devpath;$/;"	m	struct:atransport
+directory_exists	adb_utils.cpp	/^bool directory_exists(const std::string& path) {$/;"	f
+dirlist	file_sync_client.cpp	/^    copyinfo **dirlist;$/;"	m	struct:sync_ls_build_list_cb_args	file:
+disable_tcp_nagle	sysdeps.h	/^static __inline__ void  disable_tcp_nagle( int  fd )$/;"	f
+disable_tcp_nagle	sysdeps.h	/^static __inline__ void  disable_tcp_nagle(int fd)$/;"	f
+disconnect	adb.h	/^    adisconnect  disconnect;$/;"	m	struct:alistener
+disconnect	sockets.cpp	/^    adisconnect  disconnect;$/;"	m	struct:aremotesocket	file:
+disconnect	tests/test_adb.py	/^    def disconnect(self, host):$/;"	m	class:AdbWrapper
+disconnects	adb.h	/^    adisconnect  disconnects;$/;"	m	struct:atransport
+do_list	file_sync_service.cpp	/^static int do_list(int s, const char *path)$/;"	f	file:
+do_recv	file_sync_service.cpp	/^static int do_recv(int s, const char *path, char *buffer)$/;"	f	file:
+do_send	file_sync_service.cpp	/^static int do_send(int s, char *path, char *buffer)$/;"	f	file:
+do_stat	file_sync_service.cpp	/^static int do_stat(int s, const char *path)$/;"	f	file:
+do_sync_ls	file_sync_client.cpp	/^int do_sync_ls(const char* path) {$/;"	f
+do_sync_ls_cb	file_sync_client.cpp	/^static void do_sync_ls_cb(unsigned mode, unsigned size, unsigned time,$/;"	f	file:
+do_sync_pull	file_sync_client.cpp	/^int do_sync_pull(const char *rpath, const char *lpath, int show_progress, int copy_attrs)$/;"	f
+do_sync_push	file_sync_client.cpp	/^int do_sync_push(const char *lpath, const char *rpath, int show_progress)$/;"	f
+do_sync_sync	file_sync_client.cpp	/^int do_sync_sync(const std::string& lpath, const std::string& rpath, bool list_only)$/;"	f
+do_usb_open	usb_windows.cpp	/^usb_handle* do_usb_open(const wchar_t* interface_name) {$/;"	f
+drop_capabilities_bounding_set_if_needed	adb_main.cpp	/^static void drop_capabilities_bounding_set_if_needed() {$/;"	f	file:
+dst	file_sync_client.cpp	/^    const char *dst;$/;"	m	struct:copyinfo	file:
+dump_all_fds	fdevent.cpp	/^static inline void dump_all_fds(const char* \/* extra_msg *\/) {}$/;"	f	file:
+dump_all_fds	fdevent.cpp	/^static void dump_all_fds(const char *extra_msg)$/;"	f	file:
+dump_fde	fdevent.cpp	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	fdevent.cpp	71;"	d	file:
+dump_fde	sysdeps_win32.cpp	/^static void dump_fde(fdevent *fde, const char *info)$/;"	f	file:
+dump_fde	sysdeps_win32.cpp	1267;"	d	file:
+dump_hex	adb_utils.cpp	/^void dump_hex(const void* data, size_t byte_count) {$/;"	f
+dump_packet	transport.cpp	/^static void dump_packet(const char* name, const char* func, apacket* p) {$/;"	f	file:
+enqueue	adb.h	/^    int (*enqueue)(asocket *s, apacket *pkt);$/;"	m	struct:asocket
+eof	sysdeps_win32.cpp	/^    int        eof;$/;"	m	struct:FHRec_	file:
+ep_in	usb_linux.cpp	/^    unsigned char ep_in;$/;"	m	struct:usb_handle	file:
+ep_out	usb_linux.cpp	/^    unsigned char ep_out;$/;"	m	struct:usb_handle	file:
+epoll_fd	fdevent.cpp	/^static int epoll_fd = -1;$/;"	v	file:
+error_fds	fdevent.cpp	/^static fd_set error_fds;$/;"	v	file:
+escape_arg	adb_utils.cpp	/^std::string escape_arg(const std::string& s) {$/;"	f
+event	sysdeps_win32.cpp	/^    HANDLE    event;$/;"	m	struct:FHRec_	file:
+event_hook_alloc	sysdeps_win32.cpp	/^event_hook_alloc(FH fh) {$/;"	f	file:
+event_hook_free	sysdeps_win32.cpp	/^event_hook_free( EventHook  hook )$/;"	f	file:
+event_hook_signal	sysdeps_win32.cpp	/^event_hook_signal( EventHook  hook )$/;"	f	file:
+event_looper_find_p	sysdeps_win32.cpp	/^event_looper_find_p( EventLooper  looper, FH  fh )$/;"	f	file:
+event_looper_hook	sysdeps_win32.cpp	/^event_looper_hook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+event_looper_unhook	sysdeps_win32.cpp	/^event_looper_unhook( EventLooper  looper, int  fd, int  events )$/;"	f	file:
+events	fdevent.h	/^    uint16_t events;$/;"	m	struct:fdevent
+evt_read	sysdeps_win32.cpp	/^    HANDLE             evt_read;   \/* event signaled when one can read from a buffer *\/$/;"	m	struct:BipBufferRec_	file:
+evt_write	sysdeps_win32.cpp	/^    HANDLE             evt_write;  \/* event signaled when one can write to a buffer  *\/$/;"	m	struct:BipBufferRec_	file:
+exit_on_close	adb.h	/^    int    exit_on_close;$/;"	m	struct:asocket
+fail_errno	file_sync_service.cpp	/^static int fail_errno(int s)$/;"	f	file:
+fail_message	file_sync_service.cpp	/^static int fail_message(int s, const char *reason)$/;"	f	file:
+failed_auth_attempts	adb.h	/^    unsigned failed_auth_attempts;$/;"	m	struct:atransport
+fatal	adb.cpp	/^void fatal(const char *fmt, ...)$/;"	f
+fatal	fdevent.cpp	/^static void fatal(const char *fn, const char *fmt, ...)$/;"	f	file:
+fatal_errno	adb.cpp	/^void fatal_errno(const char *fmt, ...)$/;"	f
+fbinfo	framebuffer_service.cpp	/^struct fbinfo {$/;"	s	file:
+fd	adb.h	/^    int fd;$/;"	m	struct:alistener
+fd	adb.h	/^    int fd;$/;"	m	struct:asocket
+fd	adb.h	/^    int fd;$/;"	m	struct:atransport
+fd	adb_io_test.cpp	/^  int fd;$/;"	m	class:TemporaryFile	file:
+fd	fdevent.h	/^    int fd;$/;"	m	struct:fdevent
+fd	services.cpp	/^    int fd;$/;"	m	struct:stinfo	file:
+fd	usb_linux_client.cpp	/^    int fd;$/;"	m	struct:usb_handle	file:
+fd_func	fdevent.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_func	sysdeps.h	/^typedef void (*fd_func)(int fd, unsigned events, void *userdata);$/;"	t
+fd_table	fdevent.cpp	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table	sysdeps_win32.cpp	/^static fdevent **fd_table = 0;$/;"	v	file:
+fd_table_max	fdevent.cpp	/^static int fd_table_max = 0;$/;"	v	file:
+fd_table_max	sysdeps_win32.cpp	/^static int       fd_table_max = 0;$/;"	v	file:
+fde	adb.h	/^    fdevent fde;$/;"	m	struct:alistener
+fde	adb.h	/^    fdevent fde;$/;"	m	struct:asocket
+fde	jdwp_service.cpp	/^    fdevent*      fde;$/;"	m	struct:JdwpProcess	file:
+fde	jdwp_service.cpp	/^    fdevent*  fde;$/;"	m	struct:JdwpControl	file:
+fdevent	fdevent.h	/^struct fdevent {$/;"	s
+fdevent_add	fdevent.cpp	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_add	sysdeps_win32.cpp	/^void fdevent_add(fdevent *fde, unsigned events)$/;"	f
+fdevent_call_fdfunc	fdevent.cpp	/^static void fdevent_call_fdfunc(fdevent* fde)$/;"	f	file:
+fdevent_connect	fdevent.cpp	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_connect	sysdeps_win32.cpp	/^static void fdevent_connect(fdevent *fde)$/;"	f	file:
+fdevent_create	fdevent.cpp	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_create	sysdeps_win32.cpp	/^fdevent *fdevent_create(int fd, fd_func func, void *arg)$/;"	f
+fdevent_del	fdevent.cpp	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_del	sysdeps_win32.cpp	/^void fdevent_del(fdevent *fde, unsigned events)$/;"	f
+fdevent_destroy	fdevent.cpp	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_destroy	sysdeps_win32.cpp	/^void fdevent_destroy(fdevent *fde)$/;"	f
+fdevent_disconnect	fdevent.cpp	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_disconnect	sysdeps_win32.cpp	/^static void fdevent_disconnect(fdevent *fde)$/;"	f	file:
+fdevent_fd_check	fdevent.cpp	/^static int fdevent_fd_check(fd_set *fds)$/;"	f	file:
+fdevent_init	fdevent.cpp	/^static void fdevent_init()$/;"	f	file:
+fdevent_init	fdevent.cpp	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_init	sysdeps_win32.cpp	/^static void fdevent_init(void)$/;"	f	file:
+fdevent_install	fdevent.cpp	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg)$/;"	f
+fdevent_install	sysdeps_win32.cpp	/^void fdevent_install(fdevent *fde, int fd, fd_func func, void *arg)$/;"	f
+fdevent_loop	fdevent.cpp	/^void fdevent_loop()$/;"	f
+fdevent_loop	sysdeps_win32.cpp	/^void fdevent_loop()$/;"	f
+fdevent_plist_dequeue	fdevent.cpp	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_dequeue	sysdeps_win32.cpp	/^static fdevent *fdevent_plist_dequeue(void)$/;"	f	file:
+fdevent_plist_enqueue	fdevent.cpp	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_enqueue	sysdeps_win32.cpp	/^static void fdevent_plist_enqueue(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	fdevent.cpp	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_plist_remove	sysdeps_win32.cpp	/^static void fdevent_plist_remove(fdevent *node)$/;"	f	file:
+fdevent_process	fdevent.cpp	/^static void fdevent_process()$/;"	f	file:
+fdevent_process	sysdeps_win32.cpp	/^static void fdevent_process()$/;"	f	file:
+fdevent_register	fdevent.cpp	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_register	sysdeps_win32.cpp	/^static void fdevent_register(fdevent *fde)$/;"	f	file:
+fdevent_remove	fdevent.cpp	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_remove	sysdeps_win32.cpp	/^void fdevent_remove(fdevent *fde)$/;"	f
+fdevent_set	fdevent.cpp	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_set	sysdeps_win32.cpp	/^void fdevent_set(fdevent *fde, unsigned events)$/;"	f
+fdevent_subproc_event_func	fdevent.cpp	/^static void fdevent_subproc_event_func(int fd, unsigned ev,$/;"	f	file:
+fdevent_subproc_setup	fdevent.cpp	/^void fdevent_subproc_setup()$/;"	f
+fdevent_unregister	fdevent.cpp	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_unregister	sysdeps_win32.cpp	/^static void fdevent_unregister(fdevent *fde)$/;"	f	file:
+fdevent_update	fdevent.cpp	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdevent_update	sysdeps_win32.cpp	/^static void fdevent_update(fdevent *fde, unsigned events)$/;"	f	file:
+fdin	sysdeps_win32.cpp	/^    int                fdin;$/;"	m	struct:BipBufferRec_	file:
+fdout	sysdeps_win32.cpp	/^    int                fdout;$/;"	m	struct:BipBufferRec_	file:
+fh	sysdeps_win32.cpp	/^    FH           fh;$/;"	m	struct:EventHookRec_	file:
+fh_handle	sysdeps_win32.cpp	162;"	d	file:
+fh_pair	sysdeps_win32.cpp	164;"	d	file:
+fh_socket	sysdeps_win32.cpp	163;"	d	file:
+file_sync_service	file_sync_service.cpp	/^void file_sync_service(int fd, void *cookie)$/;"	f
+filelist	file_sync_client.cpp	/^    copyinfo **filelist;$/;"	m	struct:sync_ls_build_list_cb_args	file:
+filename	adb_io_test.cpp	/^  char filename[1024];$/;"	m	class:TemporaryFile	file:
+fill_connect_data	adb.cpp	/^static size_t fill_connect_data(char *buf, size_t bufsize)$/;"	f	file:
+find_devices	usb_windows.cpp	/^void find_devices() {$/;"	f
+find_emulator_transport_by_adb_port	transport_local.cpp	/^atransport* find_emulator_transport_by_adb_port(int adb_port)$/;"	f
+find_emulator_transport_by_adb_port_locked	transport_local.cpp	/^atransport* find_emulator_transport_by_adb_port_locked(int adb_port)$/;"	f
+find_local_socket	sockets.cpp	/^asocket *find_local_socket(unsigned local_id, unsigned peer_id)$/;"	f
+find_mount	remount_service.cpp	/^static std::string find_mount(const char* dir) {$/;"	f	file:
+find_product_out_path	commandline.cpp	/^static std::string find_product_out_path(const char* hint) {$/;"	f	file:
+find_transport	transport.cpp	/^atransport *find_transport(const char *serial)$/;"	f
+find_usb_device	usb_linux.cpp	/^static void find_usb_device(const char *base,$/;"	f	file:
+first_handle_index	sysdeps_win32.cpp	/^    int             first_handle_index;$/;"	m	struct:WaitForAllParam	file:
+flag	file_sync_client.cpp	/^    int flag;$/;"	m	struct:copyinfo	file:
+fname	usb_linux.cpp	/^    char fname[64];$/;"	m	struct:usb_handle	file:
+force_eof	fdevent.h	/^    int force_eof;$/;"	m	struct:fdevent
+format_host_command	commandline.cpp	/^static std::string format_host_command(const char* command, transport_type type, const char* serial) {$/;"	f	file:
+format_listeners	adb_listeners.cpp	/^std::string format_listeners() {$/;"	f
+forward	tests/test_adb.py	/^    def forward(self, local, remote):$/;"	m	class:AdbWrapper
+forward_remove	tests/test_adb.py	/^    def forward_remove(self, local):$/;"	m	class:AdbWrapper
+forward_remove_all	tests/test_adb.py	/^    def forward_remove_all(self):$/;"	m	class:AdbWrapper
+framebuffer_service	framebuffer_service.cpp	/^void framebuffer_service(int fd, void *cookie)$/;"	f
+framework_fd	adb_auth_client.cpp	/^static int framework_fd = -1;$/;"	v	file:
+free_keys	adb_auth_client.cpp	/^static void free_keys(struct listnode *list)$/;"	f	file:
+free_listener	adb_listeners.cpp	/^static void  free_listener(alistener*  l)$/;"	f	file:
+fs_count	usb_linux_client.cpp	/^        __le32 fs_count;$/;"	m	struct:desc_v1::usb_functionfs_descs_head_v1	file:
+fs_count	usb_linux_client.cpp	/^    __le32 fs_count;$/;"	m	struct:desc_v2	file:
+fs_descriptors	usb_linux_client.cpp	/^struct func_desc fs_descriptors = {$/;"	v	typeref:struct:func_desc
+fs_descs	usb_linux_client.cpp	/^    struct func_desc fs_descs, hs_descs;$/;"	m	struct:desc_v1	typeref:struct:desc_v1::func_desc	file:
+fs_descs	usb_linux_client.cpp	/^    struct func_desc fs_descs, hs_descs;$/;"	m	struct:desc_v2	typeref:struct:desc_v2::func_desc	file:
+fstab	set_verity_enable_state_service.cpp	/^struct fstab *fstab;$/;"	v	typeref:struct:fstab
+func	adb.h	/^    void        (*func)(void*  opaque, atransport*  t);$/;"	m	struct:adisconnect
+func	fdevent.h	/^    fd_func func;$/;"	m	struct:fdevent
+func	services.cpp	/^    void (*func)(int fd, void *cookie);$/;"	m	struct:stinfo	file:
+func_desc	usb_linux_client.cpp	/^struct func_desc {$/;"	s	file:
+gListenAll	adb_listeners.cpp	/^int gListenAll = 0; \/* Not static because it is used in commandline.c. *\/$/;"	v
+gProductOutPath	commandline.cpp	/^static std::string gProductOutPath;$/;"	v	file:
+g_saved_terminal_state	commandline.cpp	/^static termios g_saved_terminal_state;$/;"	v	file:
+generate_key	adb_auth_host.cpp	/^static int generate_key(const char *file)$/;"	f	file:
+get_apacket	adb.cpp	/^apacket* get_apacket(void)$/;"	f
+get_attached_device_count	tests/test_adb.py	/^def get_attached_device_count():$/;"	f
+get_available_local_transport_index	transport_local.cpp	/^int get_available_local_transport_index()$/;"	f
+get_available_local_transport_index_locked	transport_local.cpp	/^int get_available_local_transport_index_locked()$/;"	f
+get_basename	commandline.cpp	/^static const char* get_basename(const char* filename)$/;"	f	file:
+get_device_list	tests/test_adb.py	/^def get_device_list():$/;"	f
+get_my_path	get_my_path_darwin.cpp	/^void get_my_path(char *s, size_t maxLen)$/;"	f
+get_my_path	get_my_path_linux.cpp	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_my_path	get_my_path_windows.cpp	/^void get_my_path(char *exe, size_t maxLen)$/;"	f
+get_target_device_size	set_verity_enable_state_service.cpp	/^static int get_target_device_size(int fd, const char *blk_device,$/;"	f	file:
+get_trace_setting	adb.cpp	/^std::string get_trace_setting() {$/;"	f
+get_trace_setting_from_env	adb.cpp	/^std::string get_trace_setting_from_env() {$/;"	f
+get_trace_setting_from_prop	adb.cpp	/^std::string get_trace_setting_from_prop() {$/;"	f
+get_user_info	adb_auth_host.cpp	/^static void get_user_info(char *buf, size_t len)$/;"	f	file:
+get_user_key	adb_auth_host.cpp	/^static int get_user_key(struct listnode *list)$/;"	f	file:
+get_user_keyfilepath	adb_auth_host.cpp	/^static int get_user_keyfilepath(char *filename, size_t len)$/;"	f	file:
+get_vendor_keys	adb_auth_host.cpp	/^static void get_vendor_keys(struct listnode* key_list) {$/;"	f	file:
+getcwd	adb_utils.cpp	/^bool getcwd(std::string* s) {$/;"	f
+green_length	framebuffer_service.cpp	/^    unsigned int green_length;$/;"	m	struct:fbinfo	file:
+green_offset	framebuffer_service.cpp	/^    unsigned int green_offset;$/;"	m	struct:fbinfo	file:
+h	sysdeps_win32.cpp	/^    HANDLE       h;$/;"	m	struct:EventHookRec_	file:
+handle	sysdeps_win32.cpp	/^        HANDLE      handle;$/;"	m	union:FHRec_::__anon8	file:
+handle_forward_request	adb.cpp	/^int handle_forward_request(const char* service, transport_type ttype, char* serial, int reply_fd)$/;"	f
+handle_host_request	adb.cpp	/^int handle_host_request(char *service, transport_type ttype, char* serial, int reply_fd, asocket *s)$/;"	f
+handle_list	usb_linux.cpp	/^static usb_handle handle_list = {$/;"	v	file:
+handle_list	usb_windows.cpp	/^static usb_handle handle_list = {$/;"	v	file:
+handle_offline	adb.cpp	/^void handle_offline(atransport *t)$/;"	f
+handle_online	adb.cpp	/^void handle_online(atransport *t)$/;"	f
+handle_packet	adb.cpp	/^void handle_packet(apacket *p, atransport *t)$/;"	f
+handle_send_file	file_sync_service.cpp	/^static int handle_send_file(int s, char *path, uid_t uid,$/;"	f	file:
+handle_send_link	file_sync_service.cpp	/^static int handle_send_link(int s, char *path, char *buffer)$/;"	f	file:
+handles	sysdeps_win32.cpp	/^    HANDLE*         handles;$/;"	m	struct:WaitForAllParam	file:
+handles_count	sysdeps_win32.cpp	/^    int             handles_count;$/;"	m	struct:WaitForAllParam	file:
+header	usb_linux_client.cpp	/^    struct usb_functionfs_descs_head_v2 header;$/;"	m	struct:desc_v2	typeref:struct:desc_v2::usb_functionfs_descs_head_v2	file:
+header	usb_linux_client.cpp	/^    struct usb_functionfs_strings_head header;$/;"	m	struct:__anon1	typeref:struct:__anon1::usb_functionfs_strings_head	file:
+header	usb_linux_client.cpp	/^    } __attribute__((packed)) header;$/;"	m	struct:desc_v1	typeref:struct:desc_v1::usb_functionfs_descs_head_v1	file:
+height	framebuffer_service.cpp	/^    unsigned int height;$/;"	m	struct:fbinfo	file:
+help	commandline.cpp	/^static void help() {$/;"	f	file:
+hooks	sysdeps_win32.cpp	/^    EventHook    hooks;$/;"	m	struct:EventLooperRec_	file:
+host_service_to_socket	services.cpp	/^asocket*  host_service_to_socket(const char*  name, const char *serial)$/;"	f
+hs_count	usb_linux_client.cpp	/^        __le32 hs_count;$/;"	m	struct:desc_v1::usb_functionfs_descs_head_v1	file:
+hs_count	usb_linux_client.cpp	/^    __le32 hs_count;$/;"	m	struct:desc_v2	file:
+hs_descriptors	usb_linux_client.cpp	/^struct func_desc hs_descriptors = {$/;"	v	typeref:struct:func_desc
+hs_descs	usb_linux_client.cpp	/^    struct func_desc fs_descs, hs_descs;$/;"	m	struct:desc_v1	typeref:struct:desc_v1::	file:
+hs_descs	usb_linux_client.cpp	/^    struct func_desc fs_descs, hs_descs;$/;"	m	struct:desc_v2	typeref:struct:desc_v2::	file:
+htab	sysdeps_win32.cpp	/^    HANDLE       htab[ MAX_LOOPER_HANDLES ];$/;"	m	struct:EventLooperRec_	file:
+htab_count	sysdeps_win32.cpp	/^    int          htab_count;$/;"	m	struct:EventLooperRec_	file:
+htoll	file_sync_service.h	22;"	d
+id	adb.h	/^    unsigned id;$/;"	m	struct:asocket
+id	file_sync_client.cpp	/^    unsigned id;$/;"	m	struct:syncsendbuf	file:
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:syncmsg::__anon3
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:syncmsg::__anon4
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:syncmsg::__anon5
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:syncmsg::__anon6
+id	file_sync_service.h	/^        unsigned id;$/;"	m	struct:syncmsg::__anon7
+id	file_sync_service.h	/^    unsigned id;$/;"	m	union:syncmsg
+in_buff	jdwp_service.cpp	/^    char          in_buff[4];  \/* input character to read PID *\/$/;"	m	struct:JdwpProcess	file:
+in_len	jdwp_service.cpp	/^    int           in_len;      \/* number from JDWP process    *\/$/;"	m	struct:JdwpProcess	file:
+init	adb_io_test.cpp	/^  void init(const char* tmp_dir) {$/;"	f	class:TemporaryFile	file:
+init_functionfs	usb_linux_client.cpp	/^static void init_functionfs(struct usb_handle *h)$/;"	f	file:
+init_jdwp	jdwp_service.cpp	/^init_jdwp(void)$/;"	f
+init_socket_transport	transport_local.cpp	/^int init_socket_transport(atransport *t, int s, int adb_port, int local)$/;"	f
+init_subproc_child	services.cpp	/^static void init_subproc_child()$/;"	f	file:
+init_transport_registration	transport.cpp	/^void init_transport_registration(void)$/;"	f
+init_usb_transport	transport_usb.cpp	/^void init_usb_transport(atransport *t, usb_handle *h, int state)$/;"	f
+initialized	usb_osx.cpp	/^static int initialized = 0;$/;"	v	file:
+input_thread	transport.cpp	/^static void *input_thread(void *_t)$/;"	f	file:
+insert_local_socket	sockets.cpp	/^insert_local_socket(asocket*  s, asocket*  list)$/;"	f	file:
+install	tests/test_adb.py	/^    def install(self, filename):$/;"	m	class:AdbWrapper
+install_app	commandline.cpp	/^static int install_app(transport_type transport, const char* serial, int argc,$/;"	f	file:
+install_listener	adb_listeners.cpp	/^install_status_t install_listener(const std::string& local_name,$/;"	f
+install_local_socket	sockets.cpp	/^void install_local_socket(asocket *s)$/;"	f
+install_multiple_app	commandline.cpp	/^static int install_multiple_app(transport_type transport, const char* serial, int argc,$/;"	f	file:
+install_status_t	adb_listeners.h	/^enum install_status_t {$/;"	g
+interactive_shell	commandline.cpp	/^static int interactive_shell() {$/;"	f	file:
+interface	usb_osx.cpp	/^    IOUSBInterfaceInterface   **interface;$/;"	m	struct:usb_handle	file:
+interface_name	usb_windows.cpp	/^  char*         interface_name;$/;"	m	struct:usb_handle	file:
+intf	usb_linux_client.cpp	/^    struct usb_interface_descriptor intf;$/;"	m	struct:func_desc	typeref:struct:func_desc::usb_interface_descriptor	file:
+intf	usb_linux_client.cpp	/^    struct usb_interface_descriptor intf;$/;"	m	struct:ss_func_desc	typeref:struct:ss_func_desc::usb_interface_descriptor	file:
+is_adb_interface	transport_usb.cpp	/^int is_adb_interface(int vid, int pid, int usb_class, int usb_subclass, int usb_protocol)$/;"	f
+is_init_line	tests/test_adb.py	/^    def is_init_line(line):$/;"	f	function:call_checked_list_skip
+jdwp_control_event	jdwp_service.cpp	/^jdwp_control_event( int  s, unsigned  events, void*  _control )$/;"	f	file:
+jdwp_control_init	jdwp_service.cpp	/^jdwp_control_init( JdwpControl*  control,$/;"	f	file:
+jdwp_process_alloc	jdwp_service.cpp	/^jdwp_process_alloc( int  socket )$/;"	f	file:
+jdwp_process_event	jdwp_service.cpp	/^jdwp_process_event( int  socket, unsigned  events, void*  _proc )$/;"	f	file:
+jdwp_process_free	jdwp_service.cpp	/^jdwp_process_free( JdwpProcess*  proc )$/;"	f	file:
+jdwp_process_list	jdwp_service.cpp	/^jdwp_process_list( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_msg	jdwp_service.cpp	/^jdwp_process_list_msg( char*  buffer, int  bufferlen )$/;"	f	file:
+jdwp_process_list_updated	jdwp_service.cpp	/^jdwp_process_list_updated(void)$/;"	f	file:
+jdwp_socket_close	jdwp_service.cpp	/^jdwp_socket_close( asocket*  s )$/;"	f	file:
+jdwp_socket_enqueue	jdwp_service.cpp	/^jdwp_socket_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_socket_ready	jdwp_service.cpp	/^jdwp_socket_ready( asocket*  s )$/;"	f	file:
+jdwp_tracker_close	jdwp_service.cpp	/^jdwp_tracker_close( asocket*  s )$/;"	f	file:
+jdwp_tracker_enqueue	jdwp_service.cpp	/^jdwp_tracker_enqueue( asocket*  s, apacket*  p )$/;"	f	file:
+jdwp_tracker_ready	jdwp_service.cpp	/^jdwp_tracker_ready( asocket*  s )$/;"	f	file:
+kAllowDisableVerity	set_verity_enable_state_service.cpp	/^static const bool kAllowDisableVerity = false;$/;"	v	file:
+kAllowDisableVerity	set_verity_enable_state_service.cpp	/^static const bool kAllowDisableVerity = true;$/;"	v	file:
+kTransportAny	adb.h	/^        kTransportAny,$/;"	e	enum:transport_type
+kTransportHost	adb.h	/^        kTransportHost,$/;"	e	enum:transport_type
+kTransportLocal	adb.h	/^        kTransportLocal,$/;"	e	enum:transport_type
+kTransportUsb	adb.h	/^        kTransportUsb,$/;"	e	enum:transport_type
+key	adb.h	/^    void *key;$/;"	m	struct:atransport
+key	adb_auth_client.cpp	/^    RSAPublicKey key;$/;"	m	struct:adb_public_key	file:
+key_list	adb_auth_host.cpp	/^static struct listnode key_list;$/;"	v	typeref:struct:listnode	file:
+key_paths	adb_auth_client.cpp	/^static const char *key_paths[] = {$/;"	v	file:
+kick	adb.h	/^    void (*kick)(atransport *t);$/;"	m	struct:atransport
+kick	usb_linux_client.cpp	/^    void (*kick)(usb_handle *h);$/;"	m	struct:usb_handle	file:
+kick_disconnected_devices	usb_linux.cpp	/^static void kick_disconnected_devices()$/;"	f	file:
+kick_transport	transport.cpp	/^void kick_transport(atransport* t)$/;"	f
+kicked	adb.h	/^    int          kicked;$/;"	m	struct:atransport
+known_device	usb_linux.cpp	/^static int known_device(const char *dev_name)$/;"	f	file:
+known_device	usb_windows.cpp	/^int known_device(const char* dev_name) {$/;"	f
+known_device_locked	usb_windows.cpp	/^int known_device_locked(const char* dev_name) {$/;"	f
+lang0	usb_linux_client.cpp	/^    } __attribute__((packed)) lang0;$/;"	m	struct:__anon1	typeref:struct:__anon1::__anon2	file:
+launch_server	adb.cpp	/^int launch_server(int server_port)$/;"	f
+len	adb.h	/^    unsigned len;$/;"	m	struct:apacket
+len	sockets.cpp	/^    const size_t len;$/;"	m	struct:prefix_struct	file:
+length	usb_linux_client.cpp	/^        __le32 length;$/;"	m	struct:desc_v1::usb_functionfs_descs_head_v1	file:
+list_pending	fdevent.cpp	/^static fdevent list_pending = {$/;"	v	file:
+list_pending	sysdeps_win32.cpp	/^static fdevent list_pending = {$/;"	v	file:
+list_transports	transport.cpp	/^std::string list_transports(bool long_listing) {$/;"	f
+listen_socket	jdwp_service.cpp	/^    int       listen_socket;$/;"	m	struct:JdwpControl	file:
+listener_disconnect	adb_listeners.cpp	/^void listener_disconnect(void* listener, atransport*  t)$/;"	f
+listener_event_func	adb_listeners.cpp	/^void listener_event_func(int _fd, unsigned ev, void* _l)$/;"	f
+listener_fde	adb_auth_client.cpp	/^static fdevent listener_fde;$/;"	v	file:
+listener_list	adb_listeners.cpp	/^alistener listener_list = {$/;"	v
+load_file	sysdeps_win32.cpp	/^void *load_file(const char *fn, unsigned *_sz)$/;"	f
+load_keys	adb_auth_client.cpp	/^static void load_keys(struct listnode *list)$/;"	f	file:
+local_build_list	file_sync_client.cpp	/^static int local_build_list(copyinfo **filelist,$/;"	f	file:
+local_connect	transport_local.cpp	/^int local_connect(int port) {$/;"	f
+local_connect_arbitrary_ports	transport_local.cpp	/^int local_connect_arbitrary_ports(int console_port, int adb_port)$/;"	f
+local_init	transport_local.cpp	/^void local_init(int port)$/;"	f
+local_name	adb.h	/^    char *local_name;$/;"	m	struct:alistener
+local_name_to_fd	adb_listeners.cpp	/^int local_name_to_fd(const char *name)$/;"	f
+local_socket_close	sockets.cpp	/^static void local_socket_close(asocket *s)$/;"	f	file:
+local_socket_close_locked	sockets.cpp	/^static void local_socket_close_locked(asocket *s)$/;"	f	file:
+local_socket_close_notify	sockets.cpp	/^static void local_socket_close_notify(asocket *s)$/;"	f	file:
+local_socket_closing_list	sockets.cpp	/^static asocket local_socket_closing_list = {$/;"	v	file:
+local_socket_destroy	sockets.cpp	/^static void local_socket_destroy(asocket  *s)$/;"	f	file:
+local_socket_enqueue	sockets.cpp	/^static int local_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+local_socket_event_func	sockets.cpp	/^static void local_socket_event_func(int fd, unsigned ev, void* _s)$/;"	f	file:
+local_socket_list	sockets.cpp	/^static asocket local_socket_list = {$/;"	v	file:
+local_socket_next_id	sockets.cpp	/^static unsigned local_socket_next_id = 1;$/;"	v	file:
+local_socket_ready	sockets.cpp	/^static void local_socket_ready(asocket *s)$/;"	f	file:
+local_socket_ready_notify	sockets.cpp	/^static void local_socket_ready_notify(asocket *s)$/;"	f	file:
+local_transports	transport_local.cpp	/^static atransport*  local_transports[ ADB_LOCAL_TRANSPORT_MAX ];$/;"	v	file:
+local_transports_lock	transport_local.cpp	/^ADB_MUTEX_DEFINE( local_transports_lock );$/;"	v
+lock	sysdeps_win32.cpp	/^    CRITICAL_SECTION  lock;$/;"	m	struct:BipBufferRec_	file:
+lock	usb_linux.cpp	/^    adb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+lock	usb_linux_client.cpp	/^    adb_mutex_t lock;$/;"	m	struct:usb_handle	file:
+logcat	commandline.cpp	/^static int logcat(transport_type transport, const char* serial, int argc, const char** argv) {$/;"	f	file:
+lpath	file_sync_client.cpp	/^    const char *lpath;$/;"	m	struct:sync_ls_build_list_cb_args	file:
+lseek	sysdeps.h	391;"	d
+lseek	sysdeps.h	392;"	d
+lstat	sysdeps.h	107;"	d
+ltohl	file_sync_service.h	23;"	d
+magic	adb.h	/^    unsigned magic;         \/* command ^ 0xffffffff             *\/$/;"	m	struct:amessage
+magic	usb_linux_client.cpp	/^        __le32 magic;$/;"	m	struct:desc_v1::usb_functionfs_descs_head_v1	file:
+main	adb_main.cpp	/^int main(int argc, char **argv) {$/;"	f
+main	test_track_devices.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main_event	sysdeps_win32.cpp	/^    HANDLE          main_event;$/;"	m	struct:WaitForAllParam	file:
+make_block_device_writable	remount_service.cpp	/^bool make_block_device_writable(const std::string& dev) {$/;"	f
+make_random_device_files	tests/test_adb.py	/^def make_random_device_files(adb, in_dir, num_files, rand_size=True):$/;"	f
+make_random_host_files	tests/test_adb.py	/^def make_random_host_files(in_dir, num_files, rand_size=True):$/;"	f
+mark	usb_linux.cpp	/^    int mark;$/;"	m	struct:usb_handle	file:
+mask	sysdeps_win32.cpp	/^    int       mask;$/;"	m	struct:FHRec_	file:
+mkcopyinfo	file_sync_client.cpp	/^copyinfo *mkcopyinfo(const char *spath, const char *dpath,$/;"	f
+mkdir	sysdeps.h	131;"	d
+mkdir	sysdeps.h	132;"	d
+mkdir	sysdeps.h	496;"	d
+mkdir	sysdeps.h	497;"	d
+mkdirs	commandline.cpp	/^static int mkdirs(const char *path)$/;"	f	file:
+mkdirs	file_sync_client.cpp	/^static int mkdirs(const char *name)$/;"	f	file:
+mkdirs	file_sync_service.cpp	/^static int mkdirs(char *name)$/;"	f	file:
+mode	file_sync_client.cpp	/^    unsigned int mode;$/;"	m	struct:copyinfo	file:
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:syncmsg::__anon4
+mode	file_sync_service.h	/^        unsigned mode;$/;"	m	struct:syncmsg::__anon5
+model	adb.h	/^    char *model;$/;"	m	struct:atransport
+msg	adb.h	/^    amessage msg;$/;"	m	struct:apacket
+msglen	file_sync_service.h	/^        unsigned msglen;$/;"	m	struct:syncmsg::__anon7
+name	sysdeps_win32.cpp	/^    char  name[32];$/;"	m	struct:FHRec_	file:
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:syncmsg::__anon3
+namelen	file_sync_service.h	/^        unsigned namelen;$/;"	m	struct:syncmsg::__anon5
+need_update	jdwp_service.cpp	/^    int           need_update;$/;"	m	struct:JdwpTracker	file:
+needs_retry	adb_auth_client.cpp	/^static bool needs_retry = false;$/;"	v	file:
+next	adb.h	/^    adisconnect*  next;$/;"	m	struct:adisconnect
+next	adb.h	/^    alistener *next;$/;"	m	struct:alistener
+next	adb.h	/^    apacket *next;$/;"	m	struct:apacket
+next	adb.h	/^    asocket *next;$/;"	m	struct:asocket
+next	adb.h	/^    atransport *next;$/;"	m	struct:atransport
+next	fdevent.h	/^    fdevent *next;$/;"	m	struct:fdevent
+next	file_sync_client.cpp	/^    copyinfo *next;$/;"	m	struct:copyinfo	file:
+next	jdwp_service.cpp	/^    JdwpProcess*  next;$/;"	m	struct:JdwpProcess	file:
+next	jdwp_service.cpp	/^    JdwpTracker*  next;$/;"	m	struct:JdwpTracker	file:
+next	sysdeps_win32.cpp	/^    EventHook    next;$/;"	m	struct:EventHookRec_	file:
+next	transport.cpp	/^    device_tracker*  next;$/;"	m	struct:device_tracker	file:
+next	usb_linux.cpp	/^    usb_handle *next;$/;"	m	struct:usb_handle	file:
+next	usb_windows.cpp	/^  usb_handle *next;$/;"	m	struct:usb_handle	file:
+node	adb_auth_client.cpp	/^    struct listnode node;$/;"	m	struct:adb_public_key	typeref:struct:adb_public_key::listnode	file:
+node	adb_auth_host.cpp	/^    struct listnode node;$/;"	m	struct:adb_private_key	typeref:struct:adb_private_key::listnode	file:
+notificationIterator	usb_osx.cpp	/^static io_iterator_t            notificationIterator;$/;"	v	file:
+notificationPort	usb_osx.cpp	/^static IONotificationPortRef    notificationPort = 0;$/;"	v	file:
+notify	usb_linux.cpp	/^    adb_cond_t notify;$/;"	m	struct:usb_handle	file:
+notify	usb_linux_client.cpp	/^    adb_cond_t notify;$/;"	m	struct:usb_handle	file:
+num_prefixes	sockets.cpp	/^static const int num_prefixes = (sizeof(prefixes) \/ sizeof(prefixes[0]));$/;"	v	file:
+online	adb.h	/^    int online;$/;"	m	struct:atransport
+opaque	adb.h	/^    void*         opaque;$/;"	m	struct:adisconnect
+open	qemu_tracing.cpp	31;"	d	file:
+open	qemu_tracing.cpp	33;"	d	file:
+open	qemu_tracing.cpp	36;"	d	file:
+open	qemu_tracing.cpp	38;"	d	file:
+open	sysdeps.h	182;"	d
+open	sysdeps.h	354;"	d
+open	sysdeps.h	355;"	d
+open	transport_local.cpp	175;"	d	file:
+open	transport_local.cpp	177;"	d	file:
+open	transport_local.cpp	180;"	d	file:
+open	transport_local.cpp	182;"	d	file:
+out_count	jdwp_service.cpp	/^    int           out_count;            \/* to send to the JDWP process      *\/$/;"	m	struct:JdwpProcess	file:
+out_fds	jdwp_service.cpp	/^    int           out_fds[MAX_OUT_FDS]; \/* output array of file descriptors *\/$/;"	m	struct:JdwpProcess	file:
+output_thread	transport.cpp	/^static void *output_thread(void *_t)$/;"	f	file:
+pair	sysdeps_win32.cpp	/^        SocketPair  pair;$/;"	m	union:FHRec_::__anon8	file:
+panic	test_track_devices.cpp	/^panic( const char*  msg )$/;"	f	file:
+parse_banner	adb.cpp	/^void parse_banner(const char* banner, atransport* t) {$/;"	f
+parse_push_pull_args	commandline.cpp	/^static void parse_push_pull_args(const char **arg, int narg, char const **path1,$/;"	f	file:
+pass	jdwp_service.cpp	/^    int      pass;$/;"	m	struct:JdwpSocket	file:
+peek	sysdeps_win32.cpp	/^    int         (*peek)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+peer	adb.h	/^    asocket *peer;$/;"	m	struct:asocket
+pending_list	transport.cpp	/^static atransport pending_list = {$/;"	v	file:
+perror_str	adb_client.cpp	/^static std::string perror_str(const char* msg) {$/;"	f	file:
+pid	jdwp_service.cpp	/^    int           pid;$/;"	m	struct:JdwpProcess	file:
+pkt_first	adb.h	/^    apacket *pkt_first;$/;"	m	struct:asocket
+pkt_last	adb.h	/^    apacket *pkt_last;$/;"	m	struct:asocket
+pm_command	commandline.cpp	/^static int pm_command(transport_type transport, const char* serial,$/;"	f	file:
+ppp	commandline.cpp	/^static int ppp(int argc, const char** argv) {$/;"	f	file:
+prefix_struct	sockets.cpp	/^static const struct prefix_struct {$/;"	s	file:
+prefixes	sockets.cpp	/^} prefixes[] = {$/;"	v	typeref:struct:prefix_struct	file:
+prepare	sysdeps_win32.cpp	/^    void        (*prepare)( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+prev	adb.h	/^    adisconnect*  prev;$/;"	m	struct:adisconnect
+prev	adb.h	/^    alistener *prev;$/;"	m	struct:alistener
+prev	adb.h	/^    asocket *prev;$/;"	m	struct:asocket
+prev	adb.h	/^    atransport *prev;$/;"	m	struct:atransport
+prev	fdevent.h	/^    fdevent *prev;$/;"	m	struct:fdevent
+prev	jdwp_service.cpp	/^    JdwpProcess*  prev;$/;"	m	struct:JdwpProcess	file:
+prev	jdwp_service.cpp	/^    JdwpTracker*  prev;$/;"	m	struct:JdwpTracker	file:
+prev	usb_linux.cpp	/^    usb_handle *prev;$/;"	m	struct:usb_handle	file:
+prev	usb_windows.cpp	/^  usb_handle *prev;$/;"	m	struct:usb_handle	file:
+print_packet	adb.cpp	/^void print_packet(const char *label, apacket *p)$/;"	f
+print_packet	adb.h	302;"	d
+print_transfer_progress	file_sync_client.cpp	/^static void print_transfer_progress(unsigned long long bytes_current,$/;"	f	file:
+product	adb.h	/^    char *product;$/;"	m	struct:atransport
+product_file	commandline.cpp	/^static std::string product_file(const char *extra) {$/;"	f	file:
+ptr	adb.h	/^    unsigned char *ptr;$/;"	m	struct:apacket
+pull	tests/test_adb.py	/^    def pull(self, remote, local):$/;"	m	class:AdbWrapper
+push	tests/test_adb.py	/^    def push(self, local, remote):$/;"	m	class:AdbWrapper
+put_apacket	adb.cpp	/^void put_apacket(apacket *p)$/;"	f
+qemu_socket_thread	transport_local.cpp	/^static void *qemu_socket_thread(void * arg)$/;"	f	file:
+qual_match	transport.cpp	/^static int qual_match(const char *to_test,$/;"	f	file:
+qual_overwrite	adb.cpp	/^static void qual_overwrite(char** dst, const std::string& src) {$/;"	f	file:
+read	sysdeps.h	151;"	d
+read	sysdeps.h	152;"	d
+read	sysdeps.h	377;"	d
+read	sysdeps.h	378;"	d
+read	sysdeps_win32.cpp	3050;"	d	file:
+read	usb_linux_client.cpp	/^    int (*read)(usb_handle *h, void *data, int len);$/;"	m	struct:usb_handle	file:
+read_and_dump	commandline.cpp	/^static void read_and_dump(int fd) {$/;"	f	file:
+read_fds	fdevent.cpp	/^static fd_set read_fds;$/;"	v	file:
+read_from_remote	adb.h	/^    int (*read_from_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+read_key	adb_auth_host.cpp	/^static int read_key(const char *file, struct listnode *list)$/;"	f	file:
+read_keys	adb_auth_client.cpp	/^static void read_keys(const char *file, struct listnode *list)$/;"	f	file:
+read_packet	transport.cpp	/^read_packet(int  fd, const char* name, apacket** ppacket)$/;"	f	file:
+read_status_line	commandline.cpp	/^static void read_status_line(int fd, char* buf, size_t count)$/;"	f	file:
+ready	adb.h	/^    void (*ready)(asocket *s);$/;"	m	struct:asocket
+ready	sysdeps_win32.cpp	/^    int          ready;    \/* ready event flags  *\/$/;"	m	struct:EventHookRec_	file:
+reaper_thread	usb_linux.cpp	/^    pthread_t reaper_thread;$/;"	m	struct:usb_handle	file:
+reboot_service	services.cpp	/^void reboot_service(int fd, void* arg)$/;"	f
+reboot_service_impl	services.cpp	/^static bool reboot_service_impl(int fd, const char* arg) {$/;"	f	file:
+recognized_device	usb_windows.cpp	/^int recognized_device(usb_handle* handle) {$/;"	f
+red_length	framebuffer_service.cpp	/^    unsigned int red_length;$/;"	m	struct:fbinfo	file:
+red_offset	framebuffer_service.cpp	/^    unsigned int red_offset;$/;"	m	struct:fbinfo	file:
+ref_count	adb.h	/^    int ref_count;$/;"	m	struct:atransport
+register_device	usb_linux.cpp	/^static void register_device(const char* dev_name, const char* dev_path,$/;"	f	file:
+register_new_device	usb_windows.cpp	/^int register_new_device(usb_handle* handle) {$/;"	f
+register_socket_transport	transport.cpp	/^int register_socket_transport(int s, const char *serial, int port, int local)$/;"	f
+register_transport	transport.cpp	/^static void register_transport(atransport *transport)$/;"	f	file:
+register_usb_transport	transport.cpp	/^void register_usb_transport(usb_handle *usb, const char *serial, const char *devpath, unsigned writeable)$/;"	f
+remote_build_list	file_sync_client.cpp	/^static int remote_build_list(int syncfd, copyinfo **filelist,$/;"	f	file:
+remote_close	transport_local.cpp	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_close	transport_usb.cpp	/^static void remote_close(atransport *t)$/;"	f	file:
+remote_kick	transport_local.cpp	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_kick	transport_usb.cpp	/^static void remote_kick(atransport *t)$/;"	f	file:
+remote_read	transport_local.cpp	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_read	transport_usb.cpp	/^static int remote_read(apacket *p, atransport *t)$/;"	f	file:
+remote_socket_close	sockets.cpp	/^static void remote_socket_close(asocket *s)$/;"	f	file:
+remote_socket_disconnect	sockets.cpp	/^static void remote_socket_disconnect(void*  _s, atransport*  t)$/;"	f	file:
+remote_socket_enqueue	sockets.cpp	/^static int remote_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+remote_socket_ready	sockets.cpp	/^static void remote_socket_ready(asocket *s)$/;"	f	file:
+remote_socket_shutdown	sockets.cpp	/^static void remote_socket_shutdown(asocket *s)$/;"	f	file:
+remote_write	transport_local.cpp	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remote_write	transport_usb.cpp	/^static int remote_write(apacket *p, atransport *t)$/;"	f	file:
+remount_partition	remount_service.cpp	/^static bool remount_partition(int fd, const char* dir) {$/;"	f	file:
+remount_service	remount_service.cpp	/^void remount_service(int fd, void* cookie) {$/;"	f
+remove_all_listeners	adb_listeners.cpp	/^void remove_all_listeners(void)$/;"	f
+remove_listener	adb_listeners.cpp	/^install_status_t remove_listener(const char *local_name, atransport* transport)$/;"	f
+remove_socket	sockets.cpp	/^void remove_socket(asocket *s)$/;"	f
+remove_transport	transport.cpp	/^static void remove_transport(atransport *transport)$/;"	f	file:
+remove_transport_disconnect	transport.cpp	/^void remove_transport_disconnect(atransport*  t, adisconnect*  dis)$/;"	f
+req	file_sync_service.h	/^    } req;$/;"	m	union:syncmsg	typeref:struct:syncmsg::__anon3
+restart_root_service	services.cpp	/^void restart_root_service(int fd, void *cookie) {$/;"	f
+restart_tcp_service	services.cpp	/^void restart_tcp_service(int fd, void *cookie) {$/;"	f
+restart_unroot_service	services.cpp	/^void restart_unroot_service(int fd, void *cookie) {$/;"	f
+restart_usb_service	services.cpp	/^void restart_usb_service(int fd, void *cookie) {$/;"	f
+restore	commandline.cpp	/^static int restore(int argc, const char** argv) {$/;"	f	file:
+reverse	tests/test_adb.py	/^    def reverse(self, remote, local):$/;"	m	class:AdbWrapper
+reverse_remove	tests/test_adb.py	/^    def reverse_remove(self, remote):$/;"	m	class:AdbWrapper
+reverse_remove_all	tests/test_adb.py	/^    def reverse_remove_all(self):$/;"	m	class:AdbWrapper
+reverse_service	services.cpp	/^void reverse_service(int fd, void* arg)$/;"	f
+root	tests/test_adb.py	/^    def root(self):$/;"	m	class:AdbWrapper
+root_seclabel	adb_main.cpp	/^static const char *root_seclabel = NULL;$/;"	v	file:
+rpath	file_sync_client.cpp	/^    const char *rpath;$/;"	m	struct:sync_ls_build_list_cb_args	file:
+rsa	adb_auth_host.cpp	/^    RSA *rsa;$/;"	m	struct:adb_private_key	file:
+run_transport_disconnects	transport.cpp	/^void run_transport_disconnects(atransport* t)$/;"	f
+select_n	fdevent.cpp	/^static int select_n = 0;$/;"	v	file:
+send_auth_publickey	adb_auth.cpp	/^void send_auth_publickey(atransport *t)$/;"	f
+send_auth_request	adb_auth.cpp	/^void send_auth_request(atransport *t)$/;"	f
+send_auth_response	adb_auth.cpp	/^void send_auth_response(uint8_t *token, size_t token_size, atransport *t)$/;"	f
+send_buffer	file_sync_client.cpp	/^static syncsendbuf send_buffer;$/;"	v	file:
+send_close	adb.cpp	/^static void send_close(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_connect	adb.cpp	/^void send_connect(atransport *t)$/;"	f
+send_packet	transport.cpp	/^void send_packet(apacket *p, atransport *t)$/;"	f
+send_ready	adb.cpp	/^static void send_ready(unsigned local, unsigned remote, atransport *t)$/;"	f	file:
+send_shell_command	commandline.cpp	/^static int send_shell_command(transport_type transport_type, const char* serial,$/;"	f	file:
+serial	adb.h	/^    char *serial;$/;"	m	struct:atransport
+serial	services.cpp	/^    char* serial;$/;"	m	struct:state_info	file:
+server_socket_thread	transport_local.cpp	/^static void *server_socket_thread(void * arg)$/;"	f	file:
+service_bootstrap_func	services.cpp	/^void *service_bootstrap_func(void *x)$/;"	f
+service_to_fd	services.cpp	/^int service_to_fd(const char *name)$/;"	f
+set_time_and_mode	file_sync_client.cpp	/^static int set_time_and_mode(const char *lpath, time_t time, unsigned int mode)$/;"	f	file:
+set_verity_enabled_state	set_verity_enable_state_service.cpp	/^static int set_verity_enabled_state(int fd, const char *block_device,$/;"	f	file:
+set_verity_enabled_state_service	set_verity_enable_state_service.cpp	/^void set_verity_enabled_state_service(int fd, void* cookie)$/;"	f
+setsockopt	sysdeps.h	226;"	d
+setsockopt	sysdeps.h	227;"	d
+setsockopt	sysdeps.h	463;"	d
+setsockopt	sysdeps.h	464;"	d
+setsockopt	sysdeps_win32.cpp	500;"	d	file:
+sfd	adb.h	/^    int sfd;$/;"	m	struct:atransport
+shell	tests/test_adb.py	/^    def shell(self, cmd):$/;"	m	class:AdbWrapper
+shell_nocheck	tests/test_adb.py	/^    def shell_nocheck(self, cmd):$/;"	m	class:AdbWrapper
+should_drop_privileges	adb_main.cpp	/^static bool should_drop_privileges() {$/;"	f	file:
+should_use_fs_config	file_sync_service.cpp	/^static bool should_use_fs_config(const char* path) {$/;"	f	file:
+shutdown	adb.h	/^    void (*shutdown)(asocket *s);$/;"	m	struct:asocket
+shutdown	sysdeps.h	361;"	d
+shutdown	sysdeps.h	362;"	d
+sigalrm_handler	usb_linux.cpp	/^static void sigalrm_handler(int signo) {$/;"	f	file:
+signaled_index	sysdeps_win32.cpp	/^    LONG volatile   *signaled_index;$/;"	m	struct:WaitForAllParam	file:
+sink	usb_linux_client.cpp	/^    struct usb_endpoint_descriptor_no_audio sink;$/;"	m	struct:func_desc	typeref:struct:func_desc::usb_endpoint_descriptor_no_audio	file:
+sink	usb_linux_client.cpp	/^    struct usb_endpoint_descriptor_no_audio sink;$/;"	m	struct:ss_func_desc	typeref:struct:ss_func_desc::usb_endpoint_descriptor_no_audio	file:
+sink_comp	usb_linux_client.cpp	/^    struct usb_ss_ep_comp_descriptor sink_comp;$/;"	m	struct:ss_func_desc	typeref:struct:ss_func_desc::usb_ss_ep_comp_descriptor	file:
+size	file_sync_client.cpp	/^    unsigned int size;$/;"	m	struct:copyinfo	file:
+size	file_sync_client.cpp	/^    unsigned size;$/;"	m	struct:syncsendbuf	file:
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:syncmsg::__anon4
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:syncmsg::__anon5
+size	file_sync_service.h	/^        unsigned size;$/;"	m	struct:syncmsg::__anon6
+size	framebuffer_service.cpp	/^    unsigned int size;$/;"	m	struct:fbinfo	file:
+skip_host_serial	sockets.cpp	/^static char *skip_host_serial(char *service) {$/;"	f	file:
+smart_socket_close	sockets.cpp	/^static void smart_socket_close(asocket *s)$/;"	f	file:
+smart_socket_enqueue	sockets.cpp	/^static int smart_socket_enqueue(asocket *s, apacket *p)$/;"	f	file:
+smart_socket_ready	sockets.cpp	/^static void smart_socket_ready(asocket *s)$/;"	f	file:
+socket	jdwp_service.cpp	/^    asocket       socket;$/;"	m	struct:JdwpTracker	file:
+socket	jdwp_service.cpp	/^    asocket  socket;$/;"	m	struct:JdwpSocket	file:
+socket	jdwp_service.cpp	/^    int           socket;$/;"	m	struct:JdwpProcess	file:
+socket	sockets.cpp	/^    asocket      socket;$/;"	m	struct:aremotesocket	file:
+socket	sysdeps_win32.cpp	/^        SOCKET      socket;$/;"	m	union:FHRec_::__anon8	file:
+socket	transport.cpp	/^    asocket          socket;$/;"	m	struct:device_tracker	file:
+socket_inaddr_any_server	sysdeps_win32.cpp	/^int socket_inaddr_any_server(int port, int type)$/;"	f
+socket_list_lock	sockets.cpp	/^ADB_MUTEX_DEFINE( socket_list_lock );$/;"	v
+socket_loopback_client	sysdeps_win32.cpp	/^int socket_loopback_client(int port, int type)$/;"	f
+socket_loopback_server	sysdeps_win32.cpp	/^int socket_loopback_server(int port, int type)$/;"	f
+socket_network_client	sysdeps_win32.cpp	/^int socket_network_client(const char *host, int port, int type)$/;"	f
+socket_network_client_timeout	sysdeps_win32.cpp	/^int socket_network_client_timeout(const char *host, int port, int type, int timeout)$/;"	f
+socketpair	sysdeps.h	484;"	d
+socketpair	sysdeps.h	485;"	d
+source	usb_linux_client.cpp	/^    struct usb_endpoint_descriptor_no_audio source;$/;"	m	struct:func_desc	typeref:struct:func_desc::usb_endpoint_descriptor_no_audio	file:
+source	usb_linux_client.cpp	/^    struct usb_endpoint_descriptor_no_audio source;$/;"	m	struct:ss_func_desc	typeref:struct:ss_func_desc::usb_endpoint_descriptor_no_audio	file:
+source_comp	usb_linux_client.cpp	/^    struct usb_ss_ep_comp_descriptor source_comp;$/;"	m	struct:ss_func_desc	typeref:struct:ss_func_desc::usb_ss_ep_comp_descriptor	file:
+src	file_sync_client.cpp	/^    const char *src;$/;"	m	struct:copyinfo	file:
+ss_count	usb_linux_client.cpp	/^    __le32 ss_count;$/;"	m	struct:desc_v2	file:
+ss_descriptors	usb_linux_client.cpp	/^static struct ss_func_desc ss_descriptors = {$/;"	v	typeref:struct:ss_func_desc	file:
+ss_descs	usb_linux_client.cpp	/^    struct ss_func_desc ss_descs;$/;"	m	struct:desc_v2	typeref:struct:desc_v2::ss_func_desc	file:
+ss_func_desc	usb_linux_client.cpp	/^struct ss_func_desc {$/;"	s	file:
+ss_listener_event_func	adb_listeners.cpp	/^void ss_listener_event_func(int _fd, unsigned ev, void *_l)$/;"	f
+start	sysdeps_win32.cpp	/^    int         (*start)  ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+start_cond	usb_osx.cpp	/^static pthread_cond_t start_cond;$/;"	v	file:
+start_device_log	adb.cpp	/^void start_device_log(void) {$/;"	f
+start_lock	usb_osx.cpp	/^static pthread_mutex_t start_lock;$/;"	v	file:
+start_logging	adb_main.cpp	/^void start_logging(void)$/;"	f
+start_time	file_sync_client.cpp	/^static long long start_time;$/;"	v	file:
+stat	file_sync_service.h	/^    } stat;$/;"	m	union:syncmsg	typeref:struct:syncmsg::__anon4
+state	fdevent.h	/^    uint16_t state;$/;"	m	struct:fdevent
+state	services.cpp	/^    int state;$/;"	m	struct:state_info	file:
+state_info	services.cpp	/^struct state_info {$/;"	s	file:
+status	file_sync_service.h	/^    } status;$/;"	m	union:syncmsg	typeref:struct:syncmsg::__anon7
+stdin_raw_init	commandline.cpp	/^static void stdin_raw_init(int fd) {$/;"	f	file:
+stdin_raw_init	sysdeps_win32.cpp	/^void stdin_raw_init(const int fd) {$/;"	f
+stdin_raw_restore	commandline.cpp	/^static void stdin_raw_restore(int fd) {$/;"	f	file:
+stdin_raw_restore	sysdeps_win32.cpp	/^void stdin_raw_restore(const int fd) {$/;"	f
+stdin_read_thread	commandline.cpp	/^static void *stdin_read_thread(void *x)$/;"	f	file:
+stinfo	services.cpp	/^struct stinfo {$/;"	s	file:
+stop	sysdeps_win32.cpp	/^    void        (*stop)   ( EventHook  hook );$/;"	m	struct:EventHookRec_	file:
+str	sockets.cpp	/^    const char *str;$/;"	m	struct:prefix_struct	file:
+str1	usb_linux_client.cpp	/^        const char str1[sizeof(STR_INTERFACE_)];$/;"	m	struct:__anon1::__anon2	file:
+strings	usb_linux_client.cpp	/^} __attribute__((packed)) strings = {$/;"	v	typeref:struct:__anon1	file:
+subproc_mode	adb.h	/^enum subproc_mode {$/;"	g
+subproc_waiter_service	services.cpp	/^static void subproc_waiter_service(int fd, void *cookie)$/;"	f	file:
+switch_socket_transport	adb_client.cpp	/^static int switch_socket_transport(int fd, std::string* error) {$/;"	f	file:
+sync	tests/test_adb.py	/^    def sync(self, directory=""):$/;"	m	class:AdbWrapper
+sync_finish_readtime	file_sync_client.cpp	/^static int sync_finish_readtime(int fd, unsigned int *timestamp,$/;"	f	file:
+sync_ls	file_sync_client.cpp	/^int sync_ls(int fd, const char *path, sync_ls_cb func, void *cookie)$/;"	f
+sync_ls_build_list_cb	file_sync_client.cpp	/^sync_ls_build_list_cb(unsigned mode, unsigned size, unsigned time,$/;"	f
+sync_ls_build_list_cb_args	file_sync_client.cpp	/^struct sync_ls_build_list_cb_args {$/;"	s	file:
+sync_ls_cb	file_sync_client.cpp	/^typedef void (*sync_ls_cb)(unsigned mode, unsigned size, unsigned time, const char *name, void *cookie);$/;"	t	file:
+sync_quit	file_sync_client.cpp	/^void sync_quit(int fd)$/;"	f
+sync_readmode	file_sync_client.cpp	/^int sync_readmode(int fd, const char *path, unsigned *mode)$/;"	f
+sync_readtime	file_sync_client.cpp	/^int sync_readtime(int fd, const char *path, unsigned int *timestamp,$/;"	f
+sync_recv	file_sync_client.cpp	/^int sync_recv(int fd, const char *rpath, const char *lpath, int show_progress)$/;"	f
+sync_send	file_sync_client.cpp	/^static int sync_send(int fd, const char *lpath, const char *rpath,$/;"	f	file:
+sync_start_readtime	file_sync_client.cpp	/^static int sync_start_readtime(int fd, const char *path)$/;"	f	file:
+sync_token	adb.h	/^    unsigned sync_token;$/;"	m	struct:atransport
+syncmsg	file_sync_service.h	/^union syncmsg {$/;"	u
+syncsendbuf	file_sync_client.cpp	/^struct syncsendbuf {$/;"	s	file:
+tcpip	tests/test_adb.py	/^    def tcpip(self, port):$/;"	m	class:AdbWrapper
+test_argument_escaping	tests/test_adb.py	/^    def test_argument_escaping(self):$/;"	m	class:AdbBasic
+test_help	tests/test_adb.py	/^    def test_help(self):$/;"	m	class:AdbBasic
+test_install_argument_escaping	tests/test_adb.py	/^    def test_install_argument_escaping(self):$/;"	m	class:AdbBasic
+test_pull	tests/test_adb.py	/^    def test_pull(self):$/;"	m	class:AdbFile
+test_pull_dir	tests/test_adb.py	/^    def test_pull_dir(self):$/;"	m	class:AdbFile
+test_push	tests/test_adb.py	/^    def test_push(self):$/;"	m	class:AdbFile
+test_root_unroot	tests/test_adb.py	/^    def test_root_unroot(self):$/;"	m	class:AdbBasic
+test_shell	tests/test_adb.py	/^    def test_shell(self):$/;"	m	class:AdbBasic
+test_sync	tests/test_adb.py	/^    def test_sync(self):$/;"	m	class:AdbFile
+test_version	tests/test_adb.py	/^    def test_version(self):$/;"	m	class:AdbBasic
+thread	sysdeps_win32.cpp	/^    HANDLE          thread;$/;"	m	struct:WaitForAllParam	file:
+tid	sysdeps.h	/^typedef struct { unsigned  tid; }  adb_thread_t;$/;"	m	struct:__anon9
+time	file_sync_client.cpp	/^    unsigned int time;$/;"	m	struct:copyinfo	file:
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:syncmsg::__anon4
+time	file_sync_service.h	/^        unsigned time;$/;"	m	struct:syncmsg::__anon5
+tmsg	transport.cpp	/^struct tmsg$/;"	s	file:
+token	adb.h	/^    unsigned char token[TOKEN_SIZE];$/;"	m	struct:atransport
+total_bytes	file_sync_client.cpp	/^static unsigned long long total_bytes;$/;"	v	file:
+trace	tests/test_adb.py	/^def trace(cmd):$/;"	f
+transfer_progress_format	file_sync_client.cpp	/^static const char* transfer_progress_format = "\\rTransferring: %llu\/%llu (%d%%)";$/;"	v	file:
+transport	adb.h	/^    atransport *transport;$/;"	m	struct:alistener
+transport	adb.h	/^    atransport *transport;$/;"	m	struct:asocket
+transport	services.cpp	/^    transport_type transport;$/;"	m	struct:state_info	file:
+transport	transport.cpp	/^    atransport *transport;$/;"	m	struct:tmsg	file:
+transport_fde	adb.h	/^    fdevent transport_fde;$/;"	m	struct:atransport
+transport_list	transport.cpp	/^static atransport transport_list = {$/;"	v	file:
+transport_lock	transport.cpp	/^ADB_MUTEX_DEFINE( transport_lock );$/;"	v
+transport_read_action	transport.cpp	/^transport_read_action(int  fd, struct tmsg*  m)$/;"	f	file:
+transport_registration_fde	transport.cpp	/^static fdevent transport_registration_fde;$/;"	v	file:
+transport_registration_func	transport.cpp	/^static void transport_registration_func(int _fd, unsigned ev, void *data)$/;"	f	file:
+transport_registration_recv	transport.cpp	/^static int transport_registration_recv = -1;$/;"	v	file:
+transport_registration_send	transport.cpp	/^static int transport_registration_send = -1;$/;"	v	file:
+transport_socket	adb.h	/^    int transport_socket;$/;"	m	struct:atransport
+transport_socket_events	transport.cpp	/^static void transport_socket_events(int fd, unsigned events, void *_t)$/;"	f	file:
+transport_type	adb.h	/^enum transport_type {$/;"	g
+transport_unref	transport.cpp	/^static void transport_unref(atransport *t)$/;"	f	file:
+transport_unref_locked	transport.cpp	/^static void transport_unref_locked(atransport *t)$/;"	f	file:
+transport_write_action	transport.cpp	/^transport_write_action(int  fd, struct tmsg*  m)$/;"	f	file:
+type	adb.h	/^    transport_type type;$/;"	m	struct:atransport
+u	sysdeps_win32.cpp	/^    } u;$/;"	m	struct:FHRec_	typeref:union:FHRec_::__anon8	file:
+unhex	sockets.cpp	/^static unsigned unhex(unsigned char *s, int len)$/;"	f	file:
+uninstall_app	commandline.cpp	/^static int uninstall_app(transport_type transport, const char* serial, int argc,$/;"	f	file:
+unix_close	sysdeps.h	/^static __inline__ int  unix_close(int fd)$/;"	f
+unix_close	sysdeps.h	430;"	d
+unix_open	sysdeps.h	/^static __inline__ int  unix_open(const char*  path, int options,...)$/;"	f
+unix_read	sysdeps.h	428;"	d
+unix_read	sysdeps_win32.cpp	/^int unix_read(int fd, void* buf, size_t len) {$/;"	f
+unix_socketpair	sysdeps.h	/^static __inline__ int  unix_socketpair( int  d, int  type, int  protocol, int sv[2] )$/;"	f
+unix_write	sysdeps.h	/^static __inline__  int  unix_write(int  fd, const void*  buf, size_t  len)$/;"	f
+unix_write	sysdeps.h	429;"	d
+unlink	sysdeps.h	124;"	d
+unlink	sysdeps.h	125;"	d
+unlink	sysdeps.h	398;"	d
+unlink	sysdeps.h	399;"	d
+unregister_all_tcp_transports	transport.cpp	/^void unregister_all_tcp_transports()$/;"	f
+unregister_transport	transport.cpp	/^void unregister_transport(atransport *t)$/;"	f
+unregister_usb_transport	transport.cpp	/^void unregister_usb_transport(usb_handle *usb)$/;"	f
+unroot	tests/test_adb.py	/^    def unroot(self):$/;"	m	class:AdbWrapper
+update_needed	transport.cpp	/^    int              update_needed;$/;"	m	struct:device_tracker	file:
+update_transports	transport.cpp	/^void update_transports() {$/;"	f
+urb_in	usb_linux.cpp	/^    struct usbdevfs_urb urb_in;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_in_busy	usb_linux.cpp	/^    int urb_in_busy;$/;"	m	struct:usb_handle	file:
+urb_out	usb_linux.cpp	/^    struct usbdevfs_urb urb_out;$/;"	m	struct:usb_handle	typeref:struct:usb_handle::usbdevfs_urb	file:
+urb_out_busy	usb_linux.cpp	/^    int urb_out_busy;$/;"	m	struct:usb_handle	file:
+usage	commandline.cpp	/^static int usage() {$/;"	f	file:
+usb	adb.h	/^    usb_handle *usb;$/;"	m	struct:atransport
+usb	tests/test_adb.py	/^    def usb(self):$/;"	m	class:AdbWrapper
+usbNotification	usb_osx.cpp	/^    io_object_t               usbNotification;$/;"	m	struct:usb_handle	file:
+usb_adb_init	usb_linux_client.cpp	/^static void usb_adb_init()$/;"	f	file:
+usb_adb_kick	usb_linux_client.cpp	/^static void usb_adb_kick(usb_handle *h)$/;"	f	file:
+usb_adb_open_thread	usb_linux_client.cpp	/^static void *usb_adb_open_thread(void *x)$/;"	f	file:
+usb_adb_read	usb_linux_client.cpp	/^static int usb_adb_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_adb_write	usb_linux_client.cpp	/^static int usb_adb_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_bulk_read	usb_linux.cpp	/^static int usb_bulk_read(usb_handle *h, void *data, int len)$/;"	f	file:
+usb_bulk_write	usb_linux.cpp	/^static int usb_bulk_write(usb_handle *h, const void *data, int len)$/;"	f	file:
+usb_class_id	usb_windows.cpp	/^static const GUID usb_class_id = ANDROID_USB_CLASS_ID;$/;"	v	file:
+usb_cleanup	usb_linux.cpp	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_linux_client.cpp	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_osx.cpp	/^void usb_cleanup()$/;"	f
+usb_cleanup	usb_windows.cpp	/^void usb_cleanup() {$/;"	f
+usb_cleanup_handle	usb_windows.cpp	/^void usb_cleanup_handle(usb_handle* handle) {$/;"	f
+usb_close	usb_linux.cpp	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_linux_client.cpp	/^int usb_close(usb_handle *h)$/;"	f
+usb_close	usb_osx.cpp	/^int usb_close(usb_handle *handle)$/;"	f
+usb_close	usb_windows.cpp	/^int usb_close(usb_handle* handle) {$/;"	f
+usb_disconnect	adb_auth_client.cpp	/^static struct adisconnect usb_disconnect = { usb_disconnected, 0, 0, 0 };$/;"	v	typeref:struct:adisconnect	file:
+usb_disconnected	adb_auth_client.cpp	/^static void usb_disconnected(void* unused, atransport* t)$/;"	f	file:
+usb_ffs_init	usb_linux_client.cpp	/^static void usb_ffs_init()$/;"	f	file:
+usb_ffs_kick	usb_linux_client.cpp	/^static void usb_ffs_kick(usb_handle *h)$/;"	f	file:
+usb_ffs_open_thread	usb_linux_client.cpp	/^static void *usb_ffs_open_thread(void *x)$/;"	f	file:
+usb_ffs_read	usb_linux_client.cpp	/^static int usb_ffs_read(usb_handle* h, void* data, int len)$/;"	f	file:
+usb_ffs_write	usb_linux_client.cpp	/^static int usb_ffs_write(usb_handle* h, const void* data, int len)$/;"	f	file:
+usb_functionfs_descs_head_v1	usb_linux_client.cpp	/^    struct usb_functionfs_descs_head_v1 {$/;"	s	struct:desc_v1	file:
+usb_handle	usb_linux.cpp	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_linux_client.cpp	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_osx.cpp	/^struct usb_handle$/;"	s	file:
+usb_handle	usb_windows.cpp	/^struct usb_handle {$/;"	s	file:
+usb_init	usb_linux.cpp	/^void usb_init()$/;"	f
+usb_init	usb_linux_client.cpp	/^void usb_init()$/;"	f
+usb_init	usb_osx.cpp	/^void usb_init()$/;"	f
+usb_init	usb_windows.cpp	/^void usb_init() {$/;"	f
+usb_kick	usb_linux.cpp	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_linux_client.cpp	/^void usb_kick(usb_handle *h)$/;"	f
+usb_kick	usb_osx.cpp	/^void usb_kick(usb_handle *handle)$/;"	f
+usb_kick	usb_windows.cpp	/^void usb_kick(usb_handle* handle) {$/;"	f
+usb_lock	usb_linux.cpp	/^ADB_MUTEX_DEFINE( usb_lock );$/;"	v
+usb_lock	usb_windows.cpp	/^ADB_MUTEX_DEFINE( usb_lock );$/;"	v
+usb_name	usb_windows.cpp	/^const char *usb_name(usb_handle* handle) {$/;"	f
+usb_read	usb_linux.cpp	/^int usb_read(usb_handle *h, void *_data, int len)$/;"	f
+usb_read	usb_linux_client.cpp	/^int usb_read(usb_handle *h, void *data, int len)$/;"	f
+usb_read	usb_osx.cpp	/^int usb_read(usb_handle *handle, void *buf, int len)$/;"	f
+usb_read	usb_windows.cpp	/^int usb_read(usb_handle *handle, void* data, int len) {$/;"	f
+usb_transport	adb_auth_client.cpp	/^static atransport* usb_transport;$/;"	v	file:
+usb_write	usb_linux.cpp	/^int usb_write(usb_handle *h, const void *_data, int len)$/;"	f
+usb_write	usb_linux_client.cpp	/^int usb_write(usb_handle *h, const void *data, int len)$/;"	f
+usb_write	usb_osx.cpp	/^int usb_write(usb_handle *handle, const void *buf, int len)$/;"	f
+usb_write	usb_windows.cpp	/^int usb_write(usb_handle* handle, const void* data, int len) {$/;"	f
+used	sysdeps_win32.cpp	/^    int           used;$/;"	m	struct:SocketPairRec_	file:
+used	sysdeps_win32.cpp	/^    int        used;$/;"	m	struct:FHRec_	file:
+version	commandline.cpp	/^static void version(FILE* out) {$/;"	f	file:
+version	framebuffer_service.cpp	/^    unsigned int version;$/;"	m	struct:fbinfo	file:
+wait	tests/test_adb.py	/^    def wait(self):$/;"	m	class:AdbWrapper
+wait_for_device	commandline.cpp	/^static bool wait_for_device(const char* service, transport_type t, const char* serial) {$/;"	f	file:
+wait_for_state	services.cpp	/^static void wait_for_state(int fd, void* cookie)$/;"	f	file:
+wanted	sysdeps_win32.cpp	/^    int          wanted;   \/* wanted event flags *\/$/;"	m	struct:EventHookRec_	file:
+width	framebuffer_service.cpp	/^    unsigned int width;$/;"	m	struct:fbinfo	file:
+win32_looper	sysdeps_win32.cpp	/^static EventLooperRec  win32_looper;$/;"	v	file:
+win_thread_func_t	sysdeps.h	/^typedef  void (*win_thread_func_t)(void*  arg);$/;"	t
+write	qemu_tracing.cpp	32;"	d	file:
+write	qemu_tracing.cpp	34;"	d	file:
+write	qemu_tracing.cpp	37;"	d	file:
+write	qemu_tracing.cpp	39;"	d	file:
+write	sysdeps.h	158;"	d
+write	sysdeps.h	159;"	d
+write	sysdeps.h	384;"	d
+write	sysdeps.h	385;"	d
+write	transport_local.cpp	176;"	d	file:
+write	transport_local.cpp	178;"	d	file:
+write	transport_local.cpp	181;"	d	file:
+write	transport_local.cpp	183;"	d	file:
+write	usb_linux_client.cpp	/^    int (*write)(usb_handle *h, const void *data, int len);$/;"	m	struct:usb_handle	file:
+write_data_buffer	file_sync_client.cpp	/^static int write_data_buffer(int fd, char* file_buffer, int size, syncsendbuf *sbuf,$/;"	f	file:
+write_data_file	file_sync_client.cpp	/^static int write_data_file(int fd, const char *path, syncsendbuf *sbuf, int show_progress)$/;"	f	file:
+write_data_link	file_sync_client.cpp	/^static int write_data_link(int fd, const char *path, syncsendbuf *sbuf)$/;"	f	file:
+write_fds	fdevent.cpp	/^static fd_set write_fds;$/;"	v	file:
+write_packet	transport.cpp	/^write_packet(int  fd, const char* name, apacket** ppacket)$/;"	f	file:
+write_public_keyfile	adb_auth_host.cpp	/^static int write_public_keyfile(RSA *private_key, const char *private_key_path)$/;"	f	file:
+write_to_remote	adb.h	/^    int (*write_to_remote)(apacket *p, atransport *t);$/;"	m	struct:atransport
+writeable	usb_linux.cpp	/^    unsigned writeable;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_linux.cpp	/^    unsigned zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_osx.cpp	/^    unsigned int              zero_mask;$/;"	m	struct:usb_handle	file:
+zero_mask	usb_windows.cpp	/^  unsigned zero_mask;$/;"	m	struct:usb_handle	file:
+~TemporaryFile	adb_io_test.cpp	/^  ~TemporaryFile() {$/;"	f	class:TemporaryFile
